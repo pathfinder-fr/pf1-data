@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr-FR" xmlns="urn:pathfinderDb">
+  <sources>
+    <source id="codexmonstrueux" />
+  </sources>
+  <spells />
+  <spellLists />
+  <feats />
+  <monsters>
+    <monster id="antique-fossoyeur" name="Antique fossoyeur" cr="10" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="assassin-masqué" name="Assassin masqué" cr="8" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="bourbgigoteur" name="Bourbgigoteur" cr="1" climate="temperate" environment="swamp" type="aberration">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="bourbiérin-balafré" name="Bourbiérin balafré" cr="6" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="bourbiérin-sauvage" name="Bourbiérin sauvage" cr="4" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="brigand-orque" name="Brigand orque" cr="3" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="brute-bourbiérin" name="Brute bourbiérin" cr="3" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="capitaine-de-la-maison-drow" name="Capitaine de la maison drow" cr="6" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="cavalier-aguerri" name="Cavalier aguerri" cr="5" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="cavalier-des-écailles-troglodyte-" name="Cavalier des écailles troglodyte " cr="6" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="champion-bourbiérin" name="Champion bourbiérin" cr="7" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="champion-démoniaque-drow" name="Champion démoniaque drow" cr="9" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="champion-troglodyte-" name="Champion troglodyte " cr="7" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="champion-troglodyte-" name="Champion troglodyte " cr="10" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="chasseur-bourbiérin" name="Chasseur bourbiérin" cr="5" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="chauve-souris-aile-de-suie" name="Chauve-souris aile de suie" cr="1" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="chef-de-clan-troglodyte-" name="Chef de clan troglodyte " cr="8" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="chevaucheur-de-gorthek-orque" name="Chevaucheur de gorthek orque" cr="6" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-bombardier" name="Duergar, bombardier" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-capitaine" name="Duergar, capitaine" cr="8" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-enclume" name="Duergar, enclume" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-esclavagiste" name="Duergar, esclavagiste" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-lieutenant" name="Duergar, Lieutenant" cr="5" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-sergent" name="Duergar, sergent" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="duergar-tireur-d'élite" name="Duergar, tireur d'élite" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="éclaireur-drow" name="Éclaireur drow" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="éclaireur-orque" name="Éclaireur orque" cr="5" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="empoisonneur-drow" name="Empoisonneur drow" cr="11" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="flind" name="Flind" cr="3" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="garde-de-la-maison-drow" name="Garde de la maison drow" cr="2" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="garde-du-terrier-troglodyte-" name="Garde du terrier troglodyte " cr="7" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-buda" name="Gnoll, Buda" cr="13" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-chef-de-meute" name="Gnoll, Chef de meute" cr="9" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-cogneur" name="Gnoll, Cogneur" cr="3" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-élue-de-lamashtu" name="Gnoll, Élue de Lamashtu" cr="12" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-enragé-né" name="Gnoll, Enragé-né" cr="3" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-gardien" name="Gnoll, Gardien" cr="10" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-lieutenant" name="Gnoll, Lieutenant" cr="6" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-oeil-de-lamashtu" name="Gnoll, OEil de Lamashtu" cr="5" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-saccageur" name="Gnoll, Saccageur" cr="11" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gnoll-sergent" name="Gnoll, Sergent" cr="4" climate="warm" environment="plains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelin-commando" name="Gobelin, Commando" cr="2" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelin-commando" name="Gobelin, Commando" cr="1" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelin-incendiaire" name="Gobelin incendiaire" cr="4" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelin-vicieux" name="Gobelin vicieux" cr="1" climate="temperate" environment="forest-jungle" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-adepte-de-l'embuscade-" name="Gobelours, adepte de l'embuscade " cr="10" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-dévoreur" name="Gobelours, dévoreur" cr="8" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-fanatique-" name="Gobelours, fanatique " cr="7" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-grincedent" name="Gobelours, grincedent" cr="4" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-mage-du-sang" name="Gobelours, mage du sang" cr="11" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-ombre-discrète-" name="Gobelours, ombre discrète " cr="10" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-rôdeur-" name="Gobelours, rôdeur " cr="8" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-traqueur" name="Gobelours, traqueur" cr="5" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gobelours-tyran-" name="Gobelours, tyran " cr="13" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="gorthek" name="Gorthek" cr="7" climate="temperate" environment="hills" type="animal">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="goule-commandant" name="Goule, commandant" cr="8" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="goule-grand-veneur" name="Goule, grand veneur" cr="7" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="goule-monarque" name="Goule, monarque" cr="12" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="goule-sournoise" name="Goule sournoise" cr="3" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="goule-traqueuse" name="Goule traqueuse" cr="6" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="grandcoasseur-bourbiérin" name="Grandcoasseur bourbiérin" cr="3" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="guerrier-abyssal-bourbiérin" name="Guerrier abyssal bourbiérin" cr="8" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-bombardier" name="Hobgobelin, bombardier" cr="7" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-commandant" name="Hobgobelin, commandant" cr="12" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-lieutenant" name="Hobgobelin, lieutenant" cr="4" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-parangon" name="Hobgobelin, parangon" cr="10" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-précurseur" name="Hobgobelin, précurseur" cr="6" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-prêtre-guerrier" name="Hobgobelin, prêtre guerrier" cr="8" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-sergent" name="Hobgobelin, sergent" cr="2" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="hobgobelin-zélote-des-batailles" name="Hobgobelin, zélote des batailles" cr="2" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-aboyeur" name="kobold, Aboyeur" cr="171" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-bombardier" name="kobold, Bombardier" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-chef" name="kobold, Chef" cr="8" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-escrimeur" name="Kobold, Escrimeur" cr="3" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-mage-des-écailles" name="Kobold, Mage des écailles" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-mage-rusé" name="Kobold, Mage rusé" cr="5" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-maître-de-guerre" name="Kobold, Maître de guerre" cr="6" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-maître-trappeur" name="kobold, Maître trappeur" cr="4" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-palefrenier-des-monstres" name="Kobold, Palefrenier des monstres" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-parle-diable" name="kobold, Parle-diable" cr="7" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kobold-sniper" name="kobold, Sniper" cr="1" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="kyrane" name="Kyrane" cr="3" climate="temperate" environment="underground" type="dragon">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="lieutenant-orque" name="Lieutenant orque" cr="4" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="maître-éclaireur-drow" name="Maître éclaireur drow" cr="7" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="matrone-âgée-troll" name="Matrone âgée troll" cr="10" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="matrone-drow" name="Matrone drow" cr="15" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="molosse-goule" name="Molosse goule" cr="1" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="monarque-troll" name="Monarque troll" cr="15" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="mystique-orque" name="Mystique orque" cr="2" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="oracle-du-marais-bourbiérin" name="Oracle du marais bourbiérin" cr="4" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="parle-bête-troglodyte-" name="Parle-bête troglodyte " cr="3" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="prêtre-roi-bourbiérin" name="Prêtre-roi bourbiérin" cr="11" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="prêtre-troglodyte-" name="Prêtre troglodyte " cr="3" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="prophète-bourbiérin" name="Prophète bourbiérin" cr="5" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="rôdeur-troglodyte-" name="Rôdeur troglodyte " cr="2" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="scarabée-crache-noir" name="Scarabée crache-noir" cr="3" climate="temperate" environment="underground" type="vermin">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="seigneur-de-guerre-orque" name="Seigneur de guerre orque" cr="6" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="seigneur-de-guerre-orque" name="Seigneur de guerre orque" cr="9" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="sergent-orque" name="Sergent orque" cr="2" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="slaugrak-" name="Slaugrak " cr="6" climate="temperate" environment="underground" type="">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="sorcier-docteur-orque" name="Sorcier docteur orque" cr="8" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="spectre-terrifiant" name="Spectre terrifiant" cr="8" climate="temperate" environment="ruins-dungeons" type="undead">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="tambour-de-geuerre-orque" name="Tambour de geuerre orque" cr="3" climate="temperate" environment="hills" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="traqueur-bourbiérin" name="Traqueur bourbiérin" cr="9" climate="temperate" environment="swamp" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="troll-acolyte" name="Troll acolyte" cr="6" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="troll-des-égouts" name="Troll des égouts" cr="2" climate="temperate" environment="underground" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="troll-étripeur" name="Troll étripeur" cr="8" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="troll-éventreur" name="Troll éventreur" cr="10" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="troll-furieux" name="Troll furieux" cr="8" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+    <monster id="troll-gardien" name="Troll Gardien" cr="6" climate="cold" environment="mountains" type="humanoid">
+      <source id="codexmonstrueux" />
+    </monster>
+  </monsters>
+</dataSet>

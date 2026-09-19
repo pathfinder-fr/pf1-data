@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr-FR" xmlns="urn:pathfinderDb">
+  <sources>
+    <source id="bookofthedamned" />
+  </sources>
+  <spells />
+  <spellLists />
+  <feats />
+  <monsters>
+    <monster id="brimorak" name="Brimorak" cr="5" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="bushyasta" name="Bushyasta" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="deinochos" name="Deinochos" cr="5" climate="planar" environment="aquatic" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="démodande-squameux" name="Démodande squameux" cr="20" climate="" environment="" type="">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="diable-bourreau" name="Diable bourreau" cr="11" climate="planar" environment="urban" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="diable-de-l'hérésie" name="Diable de l'hérésie" cr="12" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="diable-de-l'ost-majeur" name="Diable de l'ost majeur" cr="6" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="diable-de-l'ost-mineur" name="Diable de l'ost mineur" cr="3" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="érodaémon" name="Érodaémon" cr="11" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="ghalzarokh" name="Ghalzarokh" cr="15" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="lacridaémon" name="Lacridaémon" cr="3" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="najikai" name="Najikai" cr="8" climate="warm" environment="forest-jungle" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="nikaramsa" name="Nikaramsa" cr="14" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="nucol" name="Nucol" cr="4" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="obcisidaémon" name="Obcisidaémon" cr="19" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="oitos" name="Oitos" cr="11" climate="planar" environment="urban" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="oitos" name="Oitos" cr="11" climate="planar" environment="urban" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="orsatka" name="Orsatka" cr="13" climate="temperate" environment="urban" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="phasmadaémon" name="phasmadaémon" cr="17" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="sanguidaémon" name="Sanguidaémon" cr="9" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="séraptis" name="Séraptis" cr="15" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="suspiridaémon" name="Suspiridaémon" cr="7" climate="planar" environment="swamp" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="suspiridaémon" name="Suspiridaémon" cr="7" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="témerdaémon" name="témerdaémon" cr="14" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="vavaki" name="Vavaki" cr="18" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="vénédaémon" name="Vénédaémon" cr="5" climate="planar" environment="ruins-dungeons" type="outsider">
+      <source id="bookofthedamned" />
+    </monster>
+    <monster id="voix-des-damnés" name="Voix des damnés" cr="25" climate="" environment="" type="">
+      <source id="bookofthedamned" />
+    </monster>
+  </monsters>
+</dataSet>
