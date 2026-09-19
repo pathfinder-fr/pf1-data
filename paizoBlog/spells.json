@@ -1,0 +1,509 @@
+{
+  "Sources": [
+    {
+      "Id": "paizoBlog"
+    }
+  ],
+  "Spells": [
+    {
+      "Id": "brise",
+      "Name": "Brise",
+      "School": "Evocation",
+      "Descriptor": "Air",
+      "Levels": [
+        {
+          "List": "sorcerer-wizard"
+        }
+      ],
+      "Components": {
+        "Kinds": "Verbal, Somatic, Material"
+      },
+      "Range": {
+        "Unit": "Close"
+      },
+      "Target": {
+        "Value": "une créature ou un objet"
+      },
+      "CastingTime": {
+        "Value": 1
+      },
+      "SavingThrow": {
+        "Target": "Will",
+        "Effect": "Negates"
+      },
+      "SpellResistance": {
+        "Resist": "Yes"
+      },
+      "Source": {
+        "Id": "paizoBlog",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Brise.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Brise.ashx"
+          },
+          {
+            "Name": "DRP Black-Book-Éditions",
+            "Href": "http://www.regles-pathfinder.fr/Brise.html",
+            "HrefString": "http://www.regles-pathfinder.fr/Brise.html"
+          },
+          {
+            "Name": "Page téléchargement BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138"
+          },
+          {
+            "Name": "Téléchargement Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf"
+          },
+          {
+            "Name": "Annonce BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398"
+          },
+          {
+            "Name": "Annonce Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx",
+            "HrefString": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx"
+          },
+          {
+            "Name": "Paizo PRD",
+            "Lang": "en-US",
+            "Href": "http://paizo.com/pathfinderRPG/prd/spells/breeze.html#_breeze",
+            "HrefString": "http://paizo.com/pathfinderRPG/prd/spells/breeze.html#_breeze"
+          }
+        ]
+      },
+      "Localization": {
+        "Languages": [
+          {
+            "Entries": [
+              {
+                "Value": "Breeze",
+                "Href": "name"
+              }
+            ],
+            "Lang": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "choc",
+      "Name": "Choc",
+      "School": "Transmutation",
+      "Descriptor": "Electricity",
+      "Levels": [
+        {
+          "List": "sorcerer-wizard"
+        }
+      ],
+      "Components": {
+        "Kinds": "Verbal, Somatic"
+      },
+      "Range": {
+        "Unit": "Close"
+      },
+      "Target": {
+        "Value": "étincelle d'électricité"
+      },
+      "CastingTime": {
+        "Value": 1
+      },
+      "SpellResistance": {
+        "Resist": "Yes"
+      },
+      "Source": {
+        "Id": "paizoBlog",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Choc.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Choc.ashx"
+          },
+          {
+            "Name": "DRP Black-Book-Éditions",
+            "Href": "http://www.regles-pathfinder.fr/Choc.html",
+            "HrefString": "http://www.regles-pathfinder.fr/Choc.html"
+          },
+          {
+            "Name": "Page téléchargement BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138"
+          },
+          {
+            "Name": "Téléchargement Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf"
+          },
+          {
+            "Name": "Annonce BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398"
+          },
+          {
+            "Name": "Annonce Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx",
+            "HrefString": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx"
+          },
+          {
+            "Name": "Paizo PRD",
+            "Lang": "en-US",
+            "Href": "http://paizo.com/pathfinderRPG/prd/spells/jolt.html#_jolt",
+            "HrefString": "http://paizo.com/pathfinderRPG/prd/spells/jolt.html#_jolt"
+          }
+        ]
+      },
+      "Localization": {
+        "Languages": [
+          {
+            "Entries": [
+              {
+                "Value": "Jolt",
+                "Href": "name"
+              }
+            ],
+            "Lang": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "détremper",
+      "Name": "Détremper",
+      "School": "Conjuration",
+      "Descriptor": "Water",
+      "Levels": [
+        {
+          "List": "sorcerer-wizard"
+        }
+      ],
+      "Components": {
+        "Kinds": "Verbal, Somatic"
+      },
+      "Range": {
+        "Unit": "Close"
+      },
+      "Target": {
+        "Value": "une créature ou un objet de taille G maximum"
+      },
+      "CastingTime": {
+        "Value": 1
+      },
+      "SavingThrow": {
+        "Target": "Reflex",
+        "Effect": "Negates"
+      },
+      "SpellResistance": {
+        "Resist": "Special",
+        "Text": "oui (objet)"
+      },
+      "Source": {
+        "Id": "paizoBlog",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Détremper.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Détremper.ashx"
+          },
+          {
+            "Name": "DRP Black-Book-Éditions",
+            "Href": "http://www.regles-pathfinder.fr/Détremper.html",
+            "HrefString": "http://www.regles-pathfinder.fr/Détremper.html"
+          },
+          {
+            "Name": "Page téléchargement BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138"
+          },
+          {
+            "Name": "Téléchargement Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf"
+          },
+          {
+            "Name": "Annonce BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398"
+          },
+          {
+            "Name": "Annonce Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx",
+            "HrefString": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx"
+          },
+          {
+            "Name": "Paizo PRD",
+            "Lang": "en-US",
+            "Href": "http://paizo.com/pathfinderRPG/prd/spells/drench.html#_drench",
+            "HrefString": "http://paizo.com/pathfinderRPG/prd/spells/drench.html#_drench"
+          }
+        ]
+      },
+      "Localization": {
+        "Languages": [
+          {
+            "Entries": [
+              {
+                "Value": "Drench",
+                "Href": "name"
+              }
+            ],
+            "Lang": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "pénombre",
+      "Name": "Pénombre",
+      "School": "Evocation",
+      "Descriptor": "Darkness",
+      "Levels": [
+        {
+          "List": "sorcerer-wizard"
+        }
+      ],
+      "Components": {
+        "Kinds": "Verbal, Somatic, Material"
+      },
+      "Range": {
+        "Unit": "Touch"
+      },
+      "Target": {
+        "Value": "créature ou objet touché"
+      },
+      "CastingTime": {
+        "Value": 1
+      },
+      "SavingThrow": {
+        "Target": "Will",
+        "Effect": "Negates"
+      },
+      "SpellResistance": {
+        "Resist": "Yes"
+      },
+      "Source": {
+        "Id": "paizoBlog",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pénombre.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pénombre.ashx"
+          },
+          {
+            "Name": "DRP Black-Book-Éditions",
+            "Href": "http://www.regles-pathfinder.fr/Pénombre.html",
+            "HrefString": "http://www.regles-pathfinder.fr/Pénombre.html"
+          },
+          {
+            "Name": "Page téléchargement BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138"
+          },
+          {
+            "Name": "Téléchargement Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf"
+          },
+          {
+            "Name": "Annonce BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398"
+          },
+          {
+            "Name": "Annonce Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx",
+            "HrefString": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx"
+          },
+          {
+            "Name": "Paizo PRD",
+            "Lang": "en-US",
+            "Href": "http://paizo.com/pathfinderRPG/prd/spells/penumbra.html#_penumbra",
+            "HrefString": "http://paizo.com/pathfinderRPG/prd/spells/penumbra.html#_penumbra"
+          }
+        ]
+      },
+      "Localization": {
+        "Languages": [
+          {
+            "Entries": [
+              {
+                "Value": "Penumbra",
+                "Href": "name"
+              }
+            ],
+            "Lang": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "racine",
+      "Name": "Racine",
+      "School": "Transmutation",
+      "Descriptor": "Earth",
+      "Levels": [
+        {
+          "List": "sorcerer-wizard"
+        }
+      ],
+      "Components": {
+        "Kinds": "Verbal, Somatic, Material"
+      },
+      "Range": {
+        "Unit": "Touch"
+      },
+      "Target": {
+        "Value": "créature touchée"
+      },
+      "CastingTime": {
+        "Value": 1
+      },
+      "SavingThrow": {
+        "Target": "Will",
+        "Effect": "Negates"
+      },
+      "SpellResistance": {
+        "Resist": "Yes"
+      },
+      "Source": {
+        "Id": "paizoBlog",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Racine.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Racine.ashx"
+          },
+          {
+            "Name": "DRP Black-Book-Éditions",
+            "Href": "http://www.regles-pathfinder.fr/Racine.html",
+            "HrefString": "http://www.regles-pathfinder.fr/Racine.html"
+          },
+          {
+            "Name": "Page téléchargement BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138"
+          },
+          {
+            "Name": "Téléchargement Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf"
+          },
+          {
+            "Name": "Annonce BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398"
+          },
+          {
+            "Name": "Annonce Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx",
+            "HrefString": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx"
+          },
+          {
+            "Name": "Paizo PRD",
+            "Lang": "en-US",
+            "Href": "http://paizo.com/pathfinderRPG/prd/spells/root.html#_root",
+            "HrefString": "http://paizo.com/pathfinderRPG/prd/spells/root.html#_root"
+          }
+        ]
+      },
+      "Localization": {
+        "Languages": [
+          {
+            "Entries": [
+              {
+                "Value": "Root",
+                "Href": "name"
+              }
+            ],
+            "Lang": "en-US"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "scoop",
+      "Name": "Scoop",
+      "School": "Evocation",
+      "Descriptor": "Force",
+      "Levels": [
+        {
+          "List": "sorcerer-wizard"
+        }
+      ],
+      "Components": {
+        "Kinds": "Verbal, Somatic"
+      },
+      "Range": {
+        "Unit": "Close"
+      },
+      "Target": {
+        "Value": "un récipient de force de 15 cm de diamètre"
+      },
+      "CastingTime": {
+        "Value": 1
+      },
+      "SpellResistance": {
+        "Resist": "Yes"
+      },
+      "Source": {
+        "Id": "paizoBlog",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Scoop.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Scoop.ashx"
+          },
+          {
+            "Name": "DRP Black-Book-Éditions",
+            "Href": "http://www.regles-pathfinder.fr/Scoop.html",
+            "HrefString": "http://www.regles-pathfinder.fr/Scoop.html"
+          },
+          {
+            "Name": "Page téléchargement BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&download_id=138"
+          },
+          {
+            "Name": "Téléchargement Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/GetFile.aspx?File=%2fADJ%2fPathfinder-RPG%2fUMToursDeMagie.pdf"
+          },
+          {
+            "Name": "Annonce BBE",
+            "Href": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398",
+            "HrefString": "http://www.black-book-editions.fr/index.php?site_id=59&actu_id=398"
+          },
+          {
+            "Name": "Annonce Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx",
+            "HrefString": "http://www.pathfinder-fr.org/Blog/post/Un-coup-de-baguette-magique.aspx"
+          },
+          {
+            "Name": "Paizo PRD",
+            "Lang": "en-US",
+            "Href": "http://paizo.com/pathfinderRPG/prd/spells/scoop.html#_scoop",
+            "HrefString": "http://paizo.com/pathfinderRPG/prd/spells/scoop.html#_scoop"
+          }
+        ]
+      },
+      "Localization": {
+        "Languages": [
+          {
+            "Entries": [
+              {
+                "Value": "Scoop",
+                "Href": "name"
+              }
+            ],
+            "Lang": "en-US"
+          }
+        ]
+      }
+    }
+  ],
+  "SpellLists": [],
+  "Feats": [],
+  "Monsters": []
+}

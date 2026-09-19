@@ -1,0 +1,1221 @@
+{
+  "Sources": [
+    {
+      "Id": "codexmonstrueux"
+    }
+  ],
+  "Spells": [],
+  "SpellLists": [],
+  "Feats": [],
+  "Monsters": [
+    {
+      "Id": "antique-fossoyeur",
+      "Name": "Antique fossoyeur",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "assassin-masqué",
+      "Name": "Assassin masqué",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "bourbgigoteur",
+      "Name": "Bourbgigoteur",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Aberration",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "bourbiérin-balafré",
+      "Name": "Bourbiérin balafré",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "bourbiérin-sauvage",
+      "Name": "Bourbiérin sauvage",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "brigand-orque",
+      "Name": "Brigand orque",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "brute-bourbiérin",
+      "Name": "Brute bourbiérin",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "capitaine-de-la-maison-drow",
+      "Name": "Capitaine de la maison drow",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "cavalier-aguerri",
+      "Name": "Cavalier aguerri",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "cavalier-des-écailles-troglodyte-",
+      "Name": "Cavalier des écailles troglodyte ",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "champion-bourbiérin",
+      "Name": "Champion bourbiérin",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "champion-démoniaque-drow",
+      "Name": "Champion démoniaque drow",
+      "CR": 9.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "champion-troglodyte-",
+      "Name": "Champion troglodyte ",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "champion-troglodyte-",
+      "Name": "Champion troglodyte ",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "chasseur-bourbiérin",
+      "Name": "Chasseur bourbiérin",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "chauve-souris-aile-de-suie",
+      "Name": "Chauve-souris aile de suie",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "chef-de-clan-troglodyte-",
+      "Name": "Chef de clan troglodyte ",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "chevaucheur-de-gorthek-orque",
+      "Name": "Chevaucheur de gorthek orque",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-bombardier",
+      "Name": "Duergar, bombardier",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-capitaine",
+      "Name": "Duergar, capitaine",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-enclume",
+      "Name": "Duergar, enclume",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-esclavagiste",
+      "Name": "Duergar, esclavagiste",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-lieutenant",
+      "Name": "Duergar, Lieutenant",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-sergent",
+      "Name": "Duergar, sergent",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "duergar-tireur-d'élite",
+      "Name": "Duergar, tireur d'élite",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "éclaireur-drow",
+      "Name": "Éclaireur drow",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "éclaireur-orque",
+      "Name": "Éclaireur orque",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "empoisonneur-drow",
+      "Name": "Empoisonneur drow",
+      "CR": 11.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "flind",
+      "Name": "Flind",
+      "CR": 3.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "garde-de-la-maison-drow",
+      "Name": "Garde de la maison drow",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "garde-du-terrier-troglodyte-",
+      "Name": "Garde du terrier troglodyte ",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-buda",
+      "Name": "Gnoll, Buda",
+      "CR": 13.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-chef-de-meute",
+      "Name": "Gnoll, Chef de meute",
+      "CR": 9.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-cogneur",
+      "Name": "Gnoll, Cogneur",
+      "CR": 3.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-élue-de-lamashtu",
+      "Name": "Gnoll, Élue de Lamashtu",
+      "CR": 12.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-enragé-né",
+      "Name": "Gnoll, Enragé-né",
+      "CR": 3.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-gardien",
+      "Name": "Gnoll, Gardien",
+      "CR": 10.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-lieutenant",
+      "Name": "Gnoll, Lieutenant",
+      "CR": 6.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-oeil-de-lamashtu",
+      "Name": "Gnoll, OEil de Lamashtu",
+      "CR": 5.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-saccageur",
+      "Name": "Gnoll, Saccageur",
+      "CR": 11.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gnoll-sergent",
+      "Name": "Gnoll, Sergent",
+      "CR": 4.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelin-commando",
+      "Name": "Gobelin, Commando",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelin-commando",
+      "Name": "Gobelin, Commando",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelin-incendiaire",
+      "Name": "Gobelin incendiaire",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelin-vicieux",
+      "Name": "Gobelin vicieux",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-adepte-de-l'embuscade-",
+      "Name": "Gobelours, adepte de l'embuscade ",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-dévoreur",
+      "Name": "Gobelours, dévoreur",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-fanatique-",
+      "Name": "Gobelours, fanatique ",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-grincedent",
+      "Name": "Gobelours, grincedent",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-mage-du-sang",
+      "Name": "Gobelours, mage du sang",
+      "CR": 11.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-ombre-discrète-",
+      "Name": "Gobelours, ombre discrète ",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-rôdeur-",
+      "Name": "Gobelours, rôdeur ",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-traqueur",
+      "Name": "Gobelours, traqueur",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gobelours-tyran-",
+      "Name": "Gobelours, tyran ",
+      "CR": 13.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "gorthek",
+      "Name": "Gorthek",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Animal",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "goule-commandant",
+      "Name": "Goule, commandant",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "goule-grand-veneur",
+      "Name": "Goule, grand veneur",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "goule-monarque",
+      "Name": "Goule, monarque",
+      "CR": 12.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "goule-sournoise",
+      "Name": "Goule sournoise",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "goule-traqueuse",
+      "Name": "Goule traqueuse",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "grandcoasseur-bourbiérin",
+      "Name": "Grandcoasseur bourbiérin",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "guerrier-abyssal-bourbiérin",
+      "Name": "Guerrier abyssal bourbiérin",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-bombardier",
+      "Name": "Hobgobelin, bombardier",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-commandant",
+      "Name": "Hobgobelin, commandant",
+      "CR": 12.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-lieutenant",
+      "Name": "Hobgobelin, lieutenant",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-parangon",
+      "Name": "Hobgobelin, parangon",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-précurseur",
+      "Name": "Hobgobelin, précurseur",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-prêtre-guerrier",
+      "Name": "Hobgobelin, prêtre guerrier",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-sergent",
+      "Name": "Hobgobelin, sergent",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "hobgobelin-zélote-des-batailles",
+      "Name": "Hobgobelin, zélote des batailles",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-aboyeur",
+      "Name": "kobold, Aboyeur",
+      "CR": 171.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-bombardier",
+      "Name": "kobold, Bombardier",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-chef",
+      "Name": "kobold, Chef",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-escrimeur",
+      "Name": "Kobold, Escrimeur",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-mage-des-écailles",
+      "Name": "Kobold, Mage des écailles",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-mage-rusé",
+      "Name": "Kobold, Mage rusé",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-maître-de-guerre",
+      "Name": "Kobold, Maître de guerre",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-maître-trappeur",
+      "Name": "kobold, Maître trappeur",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-palefrenier-des-monstres",
+      "Name": "Kobold, Palefrenier des monstres",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-parle-diable",
+      "Name": "kobold, Parle-diable",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kobold-sniper",
+      "Name": "kobold, Sniper",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "kyrane",
+      "Name": "Kyrane",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Dragon",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "lieutenant-orque",
+      "Name": "Lieutenant orque",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "maître-éclaireur-drow",
+      "Name": "Maître éclaireur drow",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "matrone-âgée-troll",
+      "Name": "Matrone âgée troll",
+      "CR": 10.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "matrone-drow",
+      "Name": "Matrone drow",
+      "CR": 15.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "molosse-goule",
+      "Name": "Molosse goule",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "monarque-troll",
+      "Name": "Monarque troll",
+      "CR": 15.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "mystique-orque",
+      "Name": "Mystique orque",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "oracle-du-marais-bourbiérin",
+      "Name": "Oracle du marais bourbiérin",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "parle-bête-troglodyte-",
+      "Name": "Parle-bête troglodyte ",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "prêtre-roi-bourbiérin",
+      "Name": "Prêtre-roi bourbiérin",
+      "CR": 11.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "prêtre-troglodyte-",
+      "Name": "Prêtre troglodyte ",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "prophète-bourbiérin",
+      "Name": "Prophète bourbiérin",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "rôdeur-troglodyte-",
+      "Name": "Rôdeur troglodyte ",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "scarabée-crache-noir",
+      "Name": "Scarabée crache-noir",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Vermin",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "seigneur-de-guerre-orque",
+      "Name": "Seigneur de guerre orque",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "seigneur-de-guerre-orque",
+      "Name": "Seigneur de guerre orque",
+      "CR": 9.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "sergent-orque",
+      "Name": "Sergent orque",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "slaugrak-",
+      "Name": "Slaugrak ",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "sorcier-docteur-orque",
+      "Name": "Sorcier docteur orque",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "spectre-terrifiant",
+      "Name": "Spectre terrifiant",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "tambour-de-geuerre-orque",
+      "Name": "Tambour de geuerre orque",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "traqueur-bourbiérin",
+      "Name": "Traqueur bourbiérin",
+      "CR": 9.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "troll-acolyte",
+      "Name": "Troll acolyte",
+      "CR": 6.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "troll-des-égouts",
+      "Name": "Troll des égouts",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "troll-étripeur",
+      "Name": "Troll étripeur",
+      "CR": 8.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "troll-éventreur",
+      "Name": "Troll éventreur",
+      "CR": 10.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "troll-furieux",
+      "Name": "Troll furieux",
+      "CR": 8.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    },
+    {
+      "Id": "troll-gardien",
+      "Name": "Troll Gardien",
+      "CR": 6.0,
+      "Climate": "Cold",
+      "Environment": "Mountains",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "codexmonstrueux"
+      }
+    }
+  ]
+}

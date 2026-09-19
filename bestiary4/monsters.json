@@ -1,0 +1,947 @@
+{
+  "Sources": [
+    {
+      "Id": "bestiary4"
+    }
+  ],
+  "Spells": [],
+  "SpellLists": [],
+  "Feats": [],
+  "Monsters": [
+    {
+      "Id": "abaia",
+      "Name": "Abaia",
+      "CR": 10.0,
+      "Climate": "Warm",
+      "Environment": "Aquatic",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "agyra",
+      "Name": "Agyra",
+      "CR": 27.0,
+      "Climate": "Warm",
+      "Environment": "Mountains",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "almiraj-",
+      "Name": "Almiraj ",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Hills",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "alpluachre-",
+      "Name": "Alpluachre ",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Fey",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "aoandon",
+      "Name": "Aoandon",
+      "CR": 12.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "araignée-goliath",
+      "Name": "Araignée goliath",
+      "CR": 11.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Vermin",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "archéoptéryx",
+      "Name": "Archéoptéryx",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "argus",
+      "Name": "Argus",
+      "CR": 13.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Aberration",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "armure-fantôme-gardienne",
+      "Name": "Armure fantôme gardienne",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "armure-fantôme-gardienne",
+      "Name": "Armure fantôme gardienne",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "armure-fantôme-géante",
+      "Name": "Armure fantôme géante",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "armure-fantôme-géante",
+      "Name": "Armure fantôme géante",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "bakekujira",
+      "Name": "Bakekujira",
+      "CR": 17.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "barometz",
+      "Name": "Barometz",
+      "CR": 15.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Plant",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "belette-géante",
+      "Name": "Belette géante",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "belette-sanguinaire",
+      "Name": "Belette sanguinaire",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "bézravnis",
+      "Name": "Bézravnis",
+      "CR": 26.0,
+      "Climate": "Warm",
+      "Environment": "Desert",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "bhole",
+      "Name": "Bhole",
+      "CR": 17.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "bréthédien",
+      "Name": "Bréthédien",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Sky",
+      "Type": "Aberration",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "buggane",
+      "Name": "Buggane",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "bulle-du-chaudron",
+      "Name": "Bulle du chaudron",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Ooze",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "céphalophore",
+      "Name": "Céphalophore",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "cerf",
+      "Name": "Cerf",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "chair-affamée",
+      "Name": "Chair affamée",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Ooze",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "cheval-mécanique",
+      "Name": "Cheval mécanique",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "Plains",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "chose-de-peaux-recousues",
+      "Name": "Chose de peaux recousues",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "colosse-de-fer",
+      "Name": "Colosse de fer",
+      "CR": 21.0,
+      "Climate": "Temperate",
+      "Environment": "Plains",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "colosse-de-pierre",
+      "Name": "Colosse de pierre",
+      "CR": 19.0,
+      "Climate": "Temperate",
+      "Environment": "Plains",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "contremaître-formien",
+      "Name": "Contremaître formien",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "couleur-tombée-du-ciel",
+      "Name": "Couleur tombée du ciel",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Ooze",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "créature-d’osier",
+      "Name": "Créature d’osier",
+      "CR": 13.0,
+      "Climate": "Temperate",
+      "Environment": "Plains",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "cygne-trompette",
+      "Name": "Cygne trompette",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Swamp",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "dimorphodon",
+      "Name": "Dimorphodon",
+      "CR": 1.0,
+      "Climate": "Warm",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "dodo",
+      "Name": "Dodo",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "dragon-mécanique",
+      "Name": "Dragon mécanique",
+      "CR": 16.0,
+      "Climate": "Temperate",
+      "Environment": "Sky",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "dragon-sidéral-temporel",
+      "Name": "Dragon sidéral temporel",
+      "CR": 7.0,
+      "Climate": "Planar",
+      "Environment": "Sky",
+      "Type": "Dragon",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "drake-d'ombre",
+      "Name": "Drake d'ombre",
+      "CR": 2.0,
+      "Climate": "Planar",
+      "Environment": "Urban",
+      "Type": "Dragon",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "ettercap-cauchemardesque",
+      "Name": "Ettercap cauchemardesque",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Aberration",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "gathelain",
+      "Name": "Gathelain",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Fey",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "girafe",
+      "Name": "Girafe",
+      "CR": 3.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "golem-de-cire",
+      "Name": "Golem de cire",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "golem-de-corail",
+      "Name": "Golem de corail",
+      "CR": 9.0,
+      "Climate": "Warm",
+      "Environment": "Aquatic",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "golem-de-pacotille",
+      "Name": "Golem de pacotille",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "golem-de-sang",
+      "Name": "Golem de sang",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "grand-requin-blanc",
+      "Name": "Grand requin blanc",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "guerrière-formienne",
+      "Name": "Guerrière formienne",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "gynosphinx-momifié",
+      "Name": "Gynosphinx momifié",
+      "CR": 9.0,
+      "Climate": "Warm",
+      "Environment": "RuinsDungeons",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "hippocampe-géant",
+      "Name": "Hippocampe géant",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "hippocampe-tueur",
+      "Name": "Hippocampe tueur",
+      "CR": 5.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "jeune-seps",
+      "Name": "Jeune Seps",
+      "CR": 2.0,
+      "Climate": "Warm",
+      "Environment": "Desert",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "juggernaut",
+      "Name": "Juggernaut",
+      "CR": 11.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "kitsune",
+      "Name": "Kitsune",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Humanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "maénade",
+      "Name": "Maénade",
+      "CR": 8.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "mage-mécanique",
+      "Name": "Mage mécanique",
+      "CR": 9.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "mi-go",
+      "Name": "Mi-go",
+      "CR": 6.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Plant",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "moisissure-esclavagiste",
+      "Name": "Moisissure esclavagiste",
+      "CR": 3.0,
+      "Climate": "Temperate",
+      "Environment": "Mountains",
+      "Type": "Plant",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "morse",
+      "Name": "Morse",
+      "CR": 3.0,
+      "Climate": "Cold",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "morse-empereur",
+      "Name": "Morse empereur",
+      "CR": 8.0,
+      "Climate": "Cold",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "mur-vivant",
+      "Name": "Mur vivant",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "myrmarque-formien",
+      "Name": "Myrmarque formien",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "nosferatu",
+      "Name": "Nosferatu",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Urban",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "nosferatu",
+      "Name": "Nosferatu",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Urban",
+      "Type": "Undead",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "nycar",
+      "Name": "Nycar",
+      "CR": 2.0,
+      "Climate": "Cold",
+      "Environment": "Swamp",
+      "Type": "Dragon",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "nymphe-d'hydromètre",
+      "Name": "Nymphe d'hydromètre",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "ForestJungle",
+      "Type": "Vermin",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "océanide",
+      "Name": "Océanide",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Fey",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "ornithorynque",
+      "Name": "Ornithorynque",
+      "CR": 1.0,
+      "Climate": "Warm",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "ostiarius",
+      "Name": "Ostiarius",
+      "CR": 5.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "ouvrier-formien",
+      "Name": "Ouvrier formien",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "pantin-des-âmes",
+      "Name": "Pantin des âmes",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Plains",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "paresseux",
+      "Name": "Paresseux",
+      "CR": 1.0,
+      "Climate": "Warm",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "ratelin",
+      "Name": "Ratelin",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Urban",
+      "Type": "MagicalBeast",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "réceptacle-des-âmes",
+      "Name": "Réceptacle des âmes",
+      "CR": 12.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "reine-formienne",
+      "Name": "Reine formienne",
+      "CR": 17.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "requin-bouledogue",
+      "Name": "Requin bouledogue",
+      "CR": 2.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "sacristain",
+      "Name": "Sacristain",
+      "CR": 10.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "sculpture-végétale-vivante",
+      "Name": "Sculpture végétale vivante",
+      "CR": 4.0,
+      "Climate": "Temperate",
+      "Environment": "Plains",
+      "Type": "Plant",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "styracosaure",
+      "Name": "Styracosaure",
+      "CR": 5.0,
+      "Climate": "Warm",
+      "Environment": "Plains",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "tibérolithe",
+      "Name": "Tibérolithe",
+      "CR": 10.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "tikbalang",
+      "Name": "Tikbalang",
+      "CR": 9.0,
+      "Climate": "Warm",
+      "Environment": "ForestJungle",
+      "Type": "MonstrousHumanoid",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "tortue-géante",
+      "Name": "Tortue géante",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Desert",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "tortue-immense",
+      "Name": "Tortue immense",
+      "CR": 8.0,
+      "Climate": "Warm",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "traqueur-du-dessus",
+      "Name": "Traqueur-du-dessus",
+      "CR": 7.0,
+      "Climate": "Temperate",
+      "Environment": "Underground",
+      "Type": "Aberration",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "tuatara",
+      "Name": "Tuatara",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "Aquatic",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "vélociraptor",
+      "Name": "Vélociraptor",
+      "CR": 2.0,
+      "Climate": "Warm",
+      "Environment": "ForestJungle",
+      "Type": "Animal",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    },
+    {
+      "Id": "virebois",
+      "Name": "Virebois",
+      "CR": 1.0,
+      "Climate": "Temperate",
+      "Environment": "RuinsDungeons",
+      "Type": "Construct",
+      "Source": {
+        "Id": "bestiary4"
+      }
+    }
+  ]
+}

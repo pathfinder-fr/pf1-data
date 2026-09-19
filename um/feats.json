@@ -1,0 +1,3370 @@
+{
+  "Sources": [
+    {
+      "Id": "um"
+    }
+  ],
+  "Spells": [],
+  "SpellLists": [],
+  "Feats": [
+    {
+      "Id": "abondance-de-révélations",
+      "Name": "Abondance de révélations",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "mystère",
+          "Description": "Pouvoir de classe mystère"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit une révélation dont le nombre d’utilisations quotidiennes est limité. Il peut l’utiliser une fois de plus par jour.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Abondance de révélations.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Abondance de révélations.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "ancre-douloureuse",
+      "Name": "Ancre douloureuse",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "ancrage",
+          "Description": "Pouvoir de classe ancrage"
+        }
+      ],
+      "Description": "[[passage dans léther|passage dans l’éther]]",
+      "Benefit": "Quand un extérieur Mauvais utilise un appel, une convocation ou un effet de téléportation ou tout autre pouvoir qui transporte physiquement une créature d’un plan à un autre (comme clignotement ou passage dans l’éther) alors qu’il se trouve dans l’aura d’ancrage du personnage, il reçoit 4d8 + modificateur de Charisme du personnage points de dégâts. Ces dégâts viennent de la puissance sacrée et ne sont pas soumis à la réduction de dégâts, aux immunités contre les énergies, ni aux résistances.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ancre douloureuse.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ancre douloureuse.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "antagoniste",
+      "Name": "Antagoniste",
+      "Types": [
+        "General"
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut faire des tests de Diplomatie ou d’Intimidation pour pousser les créatures à se montrer hostiles envers lui. Quelle que soit la compétence qu’il utilise, ceci lui demande une action simple qui ne provoque pas d’attaque d’opportunité, avec un DD égal à 10 + le nombre de DV de la cible + le modificateur de Sagesse de la cible. Le personnage ne peut pas faire ce test contre une créature qui ne le comprend pas ou qui a une Intelligence de 3 ou moins.\r\nLe personnage peut faire un test de Psychologie (DD 20) avant, par une action rapide qui lui permet de bénéficier d’un bonus d’intuition égal à son bonus de Charisme aux tests de Diplomatie et d’Intimidation, avant la fin de son prochain tour. Les avantages obtenus dépendent de la compétence utilisée.\r\nC’est un effet mental.\r\n* Diplomatie. Le personnage agace un ennemi. Pendant la minute qui suit, la cible subit un malus de -2 aux jets d’attaque contre toute créature autre que le personnage et a 10% de risque d’échec des sorts quand elle ne vise pas le personnage ou ne l’englobe pas dans la zone d’effet.\r\n* Intimidation. La créature devient folle de rage. À son prochain tour, elle doit tenter de faire une attaque contre le personnage (que ce soit au corps à corps, à distance, avec un sort ciblé ou un sort à zone d'effet). L’effet se termine si la créature est dans l’incapacité de le faire ou si elle risque de se blesser en essayant (si le personnage est de l’autre côté d’un ravin ou d’un mur de feu par exemple). Si la cible ne peut pas attaquer le personnage à son tour, ce dernier peut refaire un test par une action immédiate pour prolonger l’effet de 1 round (mais pas plus). L’effet se termine dès que la créature a fait une attaque contre le personnage.\r\nUne fois que le personnage a utilisé ce don une fois contre une créature, il ne peut plus s’en servir contre elle pendant 1 jour.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Antagoniste.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Antagoniste.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "apprendre-un-piège-de-rôdeur",
+      "Name": "Apprendre un piège de rôdeur",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "survie",
+          "Number": 5,
+          "Description": "5 rangs en Survie"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit un piège de rôdeur qu’il peut utiliser chaque jour un nombre de fois égal à son bonus de Sagesse (1 au minimum). Le DD de ce piège est égal à 10 + 1/2 niveau du personnage + bonus de Sagesse et dure 1 jour par tranche de deux niveaux de personnage. Si le personnage n’est pas un rôdeur, ce don lui donne seulement accès aux pièges extraordinaires qui, comme tous les pièges de rôdeur, voient leur DD diminuer de 2.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Apprendre un piège de rôdeur.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Apprendre un piège de rôdeur.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "arcane-supplémentaire",
+      "Name": "Arcane supplémentaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "arcane",
+          "Description": "Pouvoir de classe de magus arcane"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage obtient un arcane de magus supplémentaire. Il doit remplir les conditions requises.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arcane supplémentaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arcane supplémentaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "arme-à-aspersion-à-ricochet",
+      "Name": "Arme à aspersion à ricochet",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "dex",
+          "Number": 13,
+          "Description": "Dex 13"
+        },
+        {
+          "Type": "Feat",
+          "Value": "lancer-improvisé",
+          "Description": "Lancer improvisé"
+        }
+      ],
+      "Description": "'Normal.",
+      "Benefit": "Quand l’arme à aspersion du personnage rate sa cible et que le jet de direction indique qu’elle atterrit dans une case occupée par une créature, il peut faire un Jet d’attaque (avec un malus de -5) comme s’il avait lancé l’arme sur cette créature. Si l’attaque réussit, l’arme touche et la créature reçoit la totalité des dégâts d’aspersion. Les cases adjacentes reçoivent les dégâts d’aspersion habituels.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme à aspersion à ricochet.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme à aspersion à ricochet.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "attrait-de-la-vie",
+      "Name": "Attrait de la vie",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "canalisation-d’énergie-positive",
+          "Description": "Pouvoir de classe canalisation d’énergie positive"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Par une action simple, le personnage peut canaliser de l’énergie positive pour fasciner tous les morts-vivants situés dans un rayon de 9 mètres (6 c) pendant un nombre de rounds égal à son modificateur de Charisme (1 au minimum).\r\nLes morts-vivants qui réussissent leur jet de Volonté (DD 10 + 1/2 niveau de prêtre + modificateur de Charisme) ne sont pas affectés.\r\nCe type de canalisation ne soigne ni ne blesse personne.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Attrait de la vie.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Attrait de la vie.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "aura-de-fléau-des-dragons",
+      "Name": "Aura de fléau des dragons",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Aura de bravoure"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 8,
+          "Description": "lanceur de sorts niveau 8"
+        }
+      ],
+      "Description": "'Normal.",
+      "Benefit": "Quand le personnage combat des dragons, son aura de bravoure s’étend sur 6 mètres (4 c) de rayon et les alliés qui se trouvent à l’intérieur gagnent un bonus de moral aux jets de sauvegarde contre le souffle du dragon égal au bonus que l’aura de bravoure apporte contre les effets de peur.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aura de fléau des dragons.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aura de fléau des dragons.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "aura-dintrépidité",
+      "Name": "Aura d'intrépidité",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "aura-de-bravoure",
+          "Description": "Pouvoir de classe aura de bravoure"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 8,
+          "Description": "lanceur de sorts niveau 8"
+        }
+      ],
+      "Description": "'Normal.",
+      "Benefit": "L’aura de bravoure du personnage s’étend sur 6 mètres (4 c). Les alliés situés à l’intérieur sont immunisés contre les effets de peur.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aura dintrépidité.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aura dintrépidité.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "balayage-au-bâton",
+      "Name": "Balayage au bâton",
+      "Types": [
+        "Combat"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "int",
+          "Number": 13,
+          "Description": "Int 13"
+        },
+        {
+          "Type": "Feat",
+          "Value": "arme-de-prédilection",
+          "SubValue": "bâton",
+          "Description": "Arme de prédilection (bâton)"
+        },
+        {
+          "Type": "Feat",
+          "Value": "croc-en-jambe-au-bâton",
+          "Description": "Croc-en-jambe au bâton"
+        },
+        {
+          "Type": "Feat",
+          "Value": "expertise-du-combat",
+          "Description": "Expertise du combat"
+        },
+        {
+          "Type": "Feat",
+          "Value": "science-du-croc-en-jambe",
+          "Description": "Science du croc-en-jambe"
+        },
+        {
+          "Description": "Spécialisation martiale (bâton)"
+        },
+        {
+          "Type": "BBA",
+          "Number": 12,
+          "Description": "BBA +12"
+        }
+      ],
+      "Description": "Le personnage peut faire une attaque de croc-en-jambe avec un bâton sur tous les ennemis adjacents.",
+      "Benefit": "Quand le personnage manie un bâton à deux mains et fait une attaque à outrance, il peut tenter une manœuvre de croc-en-jambe contre tous les ennemis qui lui sont adjacents.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Balayage au bâton.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Balayage au bâton.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "bluff-magique",
+      "Name": "Bluff magique",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "art-de-la-magie",
+          "Number": 5,
+          "Description": "5 rangs en Art de la magie"
+        },
+        {
+          "Type": "SkillRank",
+          "Value": "bluff",
+          "Number": 5,
+          "Description": "5 rangs en Bluff"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Si un autre lanceur de sorts essaye de contrer l’incantation, il ajoute +4 au DD d’Art de la magie quand il essaye de déterminer son sort.\r\nComme le personnage a appris à masquer les éléments les plus reconnaissables de ses incantations, il gagne un bonus de +2 aux tests d’Art de la magie pour identifier et contrer le sort d’un adversaire s’il le connaît ou s’il figure dans son grimoire.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bluff magique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bluff magique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "bombe-télécommandée",
+      "Name": "Bombe télécommandée",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Découverte bombe à retardement"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le délai maximal des bombes à retardement passe à un nombre de minutes égal au niveau du personnage. S’il a sa bombe à retardement en ligne de mire, il peut la faire exploser en avance sur l’instant prévu en réussissant un test d’Intelligence DD 20.\r\nLe DD augmente de +1 pour chaque tranche de 3 mètres (2 c) qui sépare le personnage de sa bombe.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bombe télécommandée.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bombe télécommandée.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "canalisateur-polyvalent",
+      "Name": "Canalisateur polyvalent",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "prêtre",
+          "Number": 1,
+          "Description": "Canalisation d’énergie"
+        },
+        {
+          "Items": [
+            {
+              "Description": "nécromancien"
+            },
+            {
+              "Description": "prêtre Neutre (voir plus bas)"
+            }
+          ]
+        }
+      ],
+      "Description": "'À noter.",
+      "Benefit": "Le personnage fait un choix à chaque fois qu’il canalise.\r\nS’il canalise habituellement de l’énergie positive, il peut choisir la négative avec un niveau de prêtre effectif réduit de 2.\r\nS’il canalise habituellement de l’énergie négative, il peut choisir la positive avec un niveau de prêtre effectif réduit de 2.\r\nSi le personnage dispose de ce don, il remplit les conditions requises pour les dons et pouvoirs qui exigent une « canalisation d’énergie positive » ou une « canalisation d’énergie négative » (par exemple, il remplit les conditions du Contrôle des morts-vivants et du Renvoi des morts-vivants).",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Canalisateur polyvalent.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Canalisateur polyvalent.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "canalisation-rapide",
+      "Name": "Canalisation rapide",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "connaissances",
+          "Number": 5,
+          "Description": "5 rangs en Connaissances (religion)"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "prêtre",
+          "Number": 1,
+          "Description": "canalisation d’énergie"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut canaliser l’énergie par une action de mouvement s’il dépense deux utilisations quotidiennes de ce pouvoir.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Canalisation rapide.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Canalisation rapide.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "chantesort",
+      "Name": "Chantesort",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 13,
+          "Description": "Cha 13"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "barde",
+          "Number": 1,
+          "Description": "représentation bardique"
+        },
+        {
+          "Description": "capacité de lancer des sorts de 1<sup>er</sup> niveau"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut combiner sa représentation bardique et ses incantations de deux manières.\r\nTout d’abord, il peut dissimuler l’incantation de son sort de barde derrière sa représentation. Par une action rapide, il peut combiner le temps d’incantation du sort avec le test de Représentation. Les observateurs doivent faire un test de Perception ou de Psychologie opposé au test de représentation du personnage pour se rendre compte qu’il lance un sort. Ceci consomme 1 round de représentation bardique, quel que soit le temps d’incantation du sort.\r\nSinon, le personnage peut utiliser 1 round de représentation bardique, par une action de mouvement, pour maintenir un sort de barde qui demande de se concentrer sur la durée. Il peut lancer un autre sort au cours du même round s’il utilise la magie bardique pour maintenir sa concentration. Dans ce cas, il perd sa concentration quand il termine la représentation à laquelle il a intégré le sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Chantesort.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Chantesort.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "charge-radieuse",
+      "Name": "Charge radieuse",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Imposition des mains"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage réussit une attaque de charge, il peut dépenser toutes les impositions des mains qui lui restent pour infliger des dégâts supplémentaires égaux à 1d6 par imposition dépensée + modificateur de Charisme.\r\nCes dégâts viennent de la puissance sacrée et ne sont pas soumis à la réduction de dégâts, aux immunités contre les énergies, ni aux résistances.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Charge radieuse.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Charge radieuse.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "collectionneur-planaire",
+      "Name": "Collectionneur planaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Archétype d’alchimiste collectionneur"
+        }
+      ],
+      "Description": "[[convocation de monstres I|convocation de monstres]]",
+      "Benefit": "À chaque fois que le personnage apprend un extrait de convocation d’alliés naturels, il apprend l’extrait de convocation de monstres équivalent.\r\nS’il apprend plus tard à fabriquer d’autres extraits de convocation d’alliés naturels, il apprendra automatiquement l’extrait de convocation de montres correspondant.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Collectionneur planaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Collectionneur planaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "concentration-instinctive",
+      "Name": "Concentration instinctive",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "magie-de-guerre",
+          "Description": "Magie de guerre"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage n’a pas besoin de faire de test de Concentration quand il est affecté par un effet climatique vigoureux ou violent. Il gagne un bonus de +2 à tous les autres tests de Concentration.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Concentration instinctive.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Concentration instinctive.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "connaissances-officieuses",
+      "Name": "Connaissances officieuses",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "int",
+          "Number": 13,
+          "Description": "Int 13"
+        },
+        {
+          "Description": "capacité à lancer des sorts de paladin niveau 1"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage choisit un sort de niveau 1, un de niveau 2, un de niveau 3 et un de niveau 4 dans la liste des sorts de barde, de prêtre, d’inquisiteur ou d’oracle. Il ajoute ces sorts à la liste de paladin au niveau approprié. Une fois qu’il les a choisis, il ne peut plus en changer.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Connaissances officieuses.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Connaissances officieuses.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "convocation-lunaire",
+      "Name": "Convocation lunaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "École renforcée (invocation)"
+        },
+        {
+          "Description": "capacité à lancer convocation d’alliés naturels"
+        }
+      ],
+      "Description": "[[lumière]]",
+      "Benefit": "Les créatures invoquées émettent autant de luminosité qu’un sort de lumière. Elles sont immunisées contre les effets de confusion et de sommeil, et les armes naturelles sont considérées comme étant en argent quand il s’agit de vaincre la réduction de dégâts.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation lunaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation lunaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "convocation-sacrée",
+      "Name": "Convocation sacrée",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Aura"
+        },
+        {
+          "Description": "capacité à lancer convocation de monstres"
+        }
+      ],
+      "Description": "[[convocation de monstres I|convocation de monstres]]",
+      "Benefit": "Quand le personnage utilise convocation de monstres pour appeler des créatures dont l’alignement du sous-type ou des sous-types correspond exactement à son aura, il peut lancer le sort par une action simple et non en 1 round.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation sacrée.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation sacrée.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "convocation-solaire",
+      "Name": "Convocation solaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "École renforcée (convocation)"
+        },
+        {
+          "Description": "capacité à lancer convocation d'alliés naturels"
+        }
+      ],
+      "Description": "[[lumière]]",
+      "Benefit": "Les créatures convoquées par le personnage émettent autant de lumière qu’un sort de lumière. Elles sont immunisées contre les effets d’aveuglement et d’éblouissement et leurs armes naturelles sont considérées comme magiques quand il s’agit de vaincre la réduction de dégâts.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation solaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation solaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "convocation-stellaire",
+      "Name": "Convocation stellaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "École renforcée (convocation)"
+        },
+        {
+          "Description": "capacité à lancer convocation d'alliés naturels"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Les créatures convoquées par le personnage gagnent le don Combat en aveugle, un bonus de 5 aux tests de Perception et de Discrétion dans une faible lumière ou dans l’obscurité et leurs armes naturelles sont assimilées à du fer froid quand il s’agit de vaincre la réduction de dégâts.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation stellaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation stellaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "convocation-supérieure",
+      "Name": "Convocation supérieure",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "amélioration-des-créatures-convoquées",
+          "Description": "Amélioration des créatures convoquées"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 3,
+          "Description": "lanceur de sorts niveau 3"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "À chaque fois que le personnage lance un sort de convocation qui appelle plus d’une créature, il en convoque une de plus.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation supérieure.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocation supérieure.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "convocations-supplémentaires",
+      "Name": "Convocations supplémentaires",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Capacité à lancer convocation de monstres comme un pouvoir magique"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "conjurateur|conjurateur",
+          "Number": 1,
+          "Description": "conjurateur niveau 1"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage gagne 1 utilisation quotidienne de convocation de monstres comme pouvoir magique de plus.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocations supplémentaires.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Convocations supplémentaires.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "couteau-de-sorcière",
+      "Name": "Couteau de sorcière",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "sorcière",
+          "Number": 1,
+          "Description": "Sorcière"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Chaque jour, quand le personnage prépare ses sorts, il peut choisir une dague magique ou de maître et la transformer en couteau de Sorcière qui lui sert de focalisateur supplémentaire pour ses sorts de protecteur. Elle rajoute +1 au DD de ses sorts de protecteur.\r\n{s:CMy}\r\n===Version mythique===\r\nLe couteau de sorcière du personnage est autant un prolongement de son corps que de son pouvoir.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Couteau de sorcière.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Couteau de sorcière.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "critique-de-plaie-supérieur",
+      "Name": "Critique de plaie supérieur",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "critique-de-plaie",
+          "Description": "Critique de plaie"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 12,
+          "Description": "lanceur de sorts niveau 12"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Quand le personnage confirme un coup critique avec un sort de contact, de contact à distance ou un pouvoir magique, la cible est victime d’une plaie magique majeure aléatoire.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Critique de plaie supérieur.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Critique de plaie supérieur.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "critique-de-plaie",
+      "Name": "Critique de plaie",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 5,
+          "Description": "Lanceur de sorts de niveau 5"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Quand le personnage confirme un coup critique avec un sort de contact, de contact à distance ou un pouvoir magique, la victime est atteinte d’une plaie mineure aléatoire.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Critique de plaie.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Critique de plaie.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "critique-maudit",
+      "Name": "Critique maudit",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Don pour les critiques"
+        },
+        {
+          "Items": [
+            {
+              "Description": "capacité à lancer malédiction"
+            },
+            {
+              "Type": "SpellCast",
+              "Value": "malédiction-majeure",
+              "Description": "malédiction majeure"
+            }
+          ]
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 9,
+          "Description": "lanceur de sorts niveau 9"
+        }
+      ],
+      "Description": "[[malédiction majeure]]",
+      "Benefit": "Quand le personnage confirme un critique avec un sort ou un pouvoir magique, il peut lancer malédiction ou malédiction majeure sur la cible par une action immédiate. Ceci fonctionne même avec les sorts à distance. Le personnage doit avoir préparé l’un de ces sorts ou être capable d’en lancer un à ce moment-là. Il utilise ce pouvoir pour lancer le sort correspondant.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Critique maudit.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Critique maudit.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "croc-en-jambe-au-bâton",
+      "Name": "Croc-en-jambe au bâton",
+      "Types": [
+        "Combat"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "int",
+          "Number": 13,
+          "Description": "Int 13"
+        },
+        {
+          "Description": "Arme de prédilection (bâton)"
+        },
+        {
+          "Type": "Feat",
+          "Value": "expertise-du-combat",
+          "Description": "Expertise du combat"
+        },
+        {
+          "Type": "Feat",
+          "Value": "science-du-croc-en-jambe",
+          "Description": "Science du croc-en-jambe"
+        },
+        {
+          "Type": "BBA",
+          "Number": 6,
+          "Description": "BBA +6"
+        }
+      ],
+      "Description": "Le personnage peut faire une attaque de croc-en-jambe avec un bâton.",
+      "Benefit": "Le personnage traite les bâtons comme s’ils disposaient de la propriété croc-en-jambe.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Croc-en-jambe au bâton.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Croc-en-jambe au bâton.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "création-de-reliques-armes-ou-boucliers",
+      "Name": "Création de reliques, armes ou boucliers",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "création-darmes-et-armures-magiques",
+          "Description": "Création d’armes et armures magiques"
+        },
+        {
+          "Items": [
+            {
+              "Description": "possibilité de lancer sanctification"
+            },
+            {
+              "Type": "SpellCast",
+              "Value": "profanation",
+              "Description": "profanation"
+            }
+          ]
+        }
+      ],
+      "Description": "[[profanation]]",
+      "Benefit": "Quand le personnage crée une arme, une armure ou un bouclier magique, il peut lancer sanctification ou profanation lors du processus de fabrication. Cela augmente le prix de l'objet de 250 po. L’objet devient une relique et peut servir de symbole sacré (ou maudit) pour sa divinité.\r\nSi le personnage lance sanctification ou profanation, la relique compte comme un objet permanent dédié au dieu tant qu’il reste dans la zone d’effet du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Création de reliques, armes ou boucliers.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Création de reliques, armes ou boucliers.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "création-délixir-sanguin",
+      "Name": "Création d'élixir sanguin",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 15,
+          "Description": "Cha 15"
+        },
+        {
+          "Type": "Feat",
+          "Value": "préparation-de-potions",
+          "Description": "Préparation de potions"
+        },
+        {
+          "Type": "SkillRank",
+          "Value": "artisanat",
+          "Number": 12,
+          "Description": "12 rangs en Artisanat (alchimie)"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "ensorceleur",
+          "Number": 3,
+          "Description": "ensorceleur 3"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Une fois par jour, le personnage peut préparer un élixir sanguin quand il vide son esprit pour renouveler ses emplacements de sort disponibles. À ce moment, il choisit un de ses pouvoirs de lignage qu’il transfère dans une petite potion que n’importe quelle créature peut boire pour bénéficier temporairement de ce pouvoir de lignage.\r\nLe personnage doit consacrer une heure à la préparation de l’élixir. Il a besoin d’huiles et de distillats spéciaux (d’une valeur de 100 po). Quand il prépare l’élixir, il perd accès à son pouvoir de lignage jusqu’à ce qu’il vide de nouveau son esprit pour renouveler ses emplacements de sort.\r\nQuand une créature boit un élixir sanguin, elle peut activer le pouvoir de lignage à n’importe quel moment avant la fin de son prochain tour, comme si elle avait accès à ce pouvoir de lignage. La créature qui boit l’élixir ne bénéficie pas de ses effets si son niveau de personnage n’est pas égal ou supérieur au niveau minimal du pouvoir de lignage. Tout effet qui dépend du niveau utilise le niveau de personnage de la créature qui boit l’élixir sanguin ou du niveau d’ensorceleur du personnage (choisir le plus bas).\r\nLes élixirs sanguins sont extrêmement instables et perdent leurs propriétés 1 jour après leur création.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Création délixir sanguin.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Création délixir sanguin.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "discernement-ultérieur",
+      "Name": "Discernement ultérieur",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SpellCast",
+          "Value": "détection-du-mensonge",
+          "Description": "Détection du mensonge"
+        }
+      ],
+      "Description": "[[détection du mensonge]]",
+      "Benefit": "Une fois par jour, par une action libre, le personnage peut repenser à une phrase qu’il a entendue dans la journée et comprendre qu’il s’agit d’un mensonge. Ceci fonctionne comme le sort détection du mensonge mais affecte une phrase et non une créature.\r\nPar exemple, si le roi a dit « Ma fille est dans le donjon du monstre » avant que le personnage ne parte à sa recherche, tant qu’il a affirmé cela dans la journée, le personnage peut utiliser ce don pour savoir si le roi lui a délibérément menti en disant cela.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Discernement ultérieur.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Discernement ultérieur.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "donner-linitiative",
+      "Name": "Donner l'initiative",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "initiative-rusée",
+          "Description": "Pouvoir de classe initiative rusée"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Au début de chaque rencontre, le personnage peut conserver le bonus d’initiative que lui offre sa Sagesse ou le donner à un allié présent dans son champ de vision. Il doit faire ce choix avant que son allié et lui aient fait leur test d’initiative.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Donner linitiative.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Donner linitiative.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "déplacement-mystique",
+      "Name": "Déplacement mystique",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "dex",
+          "Number": 15,
+          "Description": "Dex 15"
+        },
+        {
+          "Type": "Feat",
+          "Value": "aisance",
+          "Description": "Aisance"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 1,
+          "Description": "déplacement facilité"
+        }
+      ],
+      "Description": "'Normal.",
+      "Benefit": "Le personnage peut se déplacer à sa vitesse maximale, même dans les ronces, les épineux et les zones luxuriantes enchantées ou manipulées par magie pour gêner les mouvements, et même si ces zones devraient enchevêtrer les créatures.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Déplacement mystique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Déplacement mystique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "détection-de-lexpertise",
+      "Name": "Détection de l'expertise",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "int",
+          "Number": 13,
+          "Description": "Int 13"
+        },
+        {
+          "Description": "capacité à lancer détection du chaos"
+        },
+        {
+          "Type": "SpellCast",
+          "Value": "détection-du-bien",
+          "Description": "du bien"
+        },
+        {
+          "Type": "SpellCast",
+          "Value": "détection-du-mal",
+          "Description": "du mal"
+        },
+        {
+          "Items": [
+            {
+              "Type": "SpellCast",
+              "Value": "détection-de-la-loi",
+              "Description": "de la loi"
+            },
+            {
+              "Type": "SpellCast",
+              "Value": "détection-de-la-magie",
+              "Description": "de la magie"
+            }
+          ]
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage utilise l’un des sorts indiqués dans la liste des conditions requises pour détecter l’alignement d’une créature ou sa magie, il a une chance de détecter aussi son domaine d’incantation de prédilection. Il faut observer la cible du sort de détection pendant 3 rounds.\r\nLa cible fait alors un jet de sauvegarde (Volonté DD 10 +1/2 niveau de lanceur de sorts + modificateur d’Intelligence du personnage). Si elle échoue, le personnage découvre le lignage, les domaines, les maléfices, les écoles ou les mystères dont elle dispose (le cas échéant).\r\nSi la créature réussit son jet de sauvegarde, elle est immunisée contre ce don pendant 24 heures.\r\n{s:CMy}\r\n===Version mythique===\r\nLe personnage peut intuitivement sentir les aptitudes magiques d’une créature d’un simple regard.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Détection de lexpertise.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Détection de lexpertise.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "détection-officieuse",
+      "Name": "Détection officieuse",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SpellCast",
+          "Value": "détection-du-mal",
+          "Description": "Détection du mal"
+        }
+      ],
+      "Description": "détection du mal",
+      "Benefit": "Par une action rapide, le personnage peut concentrer la lucidité offerte par la détection du mal pour augmenter sa conscience de ce qui l’entoure. Il gagne un bonus sacré de +10 aux tests de Perception et de Psychologie pour 1 round.\r\nCeci dépense son utilisation de détection du mal pour 24 heures.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Détection officieuse.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Détection officieuse.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "eidolon-concentré",
+      "Name": "Eidolon concentré",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "protection-d'allié",
+          "Description": "Pouvoir de classe protection d'allié"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage est adjacent à son eidolon, il reçoit un bonus de +4 aux tests de Concentration.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon concentré.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon concentré.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "eidolon-protecteur",
+      "Name": "Eidolon protecteur",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "protection-d'allié",
+          "Description": "Pouvoir de classe protection d'allié"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage est adjacent à son eidolon, il peut lui imposer un malus de -1 aux jets d’attaque et aux tests de manœuvre de combat pour gagner un bonus d’esquive de +1 à la CA. Quand le bonus de base à l’attaque de l’eidolon atteint +5 (et par la suite, pour chaque tranche de +5), le malus augmente de -1 et le bonus d’esquive de +1. Le personnage doit utiliser ce don quand son eidolon fait une attaque ou une attaque à outrance avec une arme naturelle ou de corps à corps.\r\nL’effet dure jusqu’au prochain tour de l’eidolon ou jusqu’à ce que le personnage et son eidolon ne soit plus adjacent, selon ce qui se produit en premier.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon protecteur.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon protecteur.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "eidolon-résilient",
+      "Name": "Eidolon résilient",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "eidolon",
+          "Number": 1,
+          "Description": "eidolon"
+        }
+      ],
+      "Description": "'Normal.",
+      "Benefit": "Si le personnage tombe inconscient, s’endort ou se fait tuer, son eidolon reste un nombre de rounds égal à son niveau de conjurateur avant d’être banni. Si le personnage reprend conscience avant la fin de cette période, l’eidolon ne disparaît pas, sinon, il est banni normalement.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon résilient.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon résilient.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "eidolon-vigilant",
+      "Name": "Eidolon vigilant",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "eidolon",
+          "Number": 1,
+          "Description": "Eidolon"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Tant que l’eidolon est à portée du personnage, ce dernier gagne un bonus de +4 aux tests de Perception. S’il possède 10 rangs ou plus dans cette compétence, le bonus passe à +8. Ce don ne fonctionne pas si l’eidolon est sans défense ou inconscient.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon vigilant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Eidolon vigilant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "empathie-rapide",
+      "Name": "Empathie rapide",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "dressage",
+          "Number": 5,
+          "Description": "5 rangs en Dressage"
+        },
+        {
+          "OtherType": "ClassPower",
+          "Value": "empathie-sauvage",
+          "Description": "pouvoir de classe empathie sauvage"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "L’utilisation de l’empathie sauvage est un pouvoir de classe.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Empathie rapide.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Empathie rapide.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "empathie-sauvage-supérieure",
+      "Name": "Empathie sauvage supérieure",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "connaissances",
+          "Number": 5,
+          "Description": "5 rangs en Connaissances (nature)"
+        },
+        {
+          "OtherType": "ClassPower",
+          "Value": "empathie-sauvage",
+          "Description": "pouvoir de classe empathie sauvage"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage gagne un bonus d’intuition de +2 aux tests d’empathie sauvage et peut utiliser ce pouvoir pour faire un test d’Intimidation au lieu de Diplomatie. De plus, il choisit l’un des genres de créatures suivants : élémentaires, fées, lycanthropes, plantes ou vermines.\r\nIl peut influencer des créatures de ce genre à l’aide de son empathie sauvage si elles ont une Intelligence de 1 ou 2 ou aucune intelligence. Une fois que le personnage a choisi le type de créature, il ne peut plus en changer.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Empathie sauvage supérieure.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Empathie sauvage supérieure.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "ensemble",
+      "Name": "Ensemble",
+      "Types": [
+        "Teamwork"
+      ],
+      "Description": "Le personnage peut créer un ensemble d’artistes amateurs compétents pour l’aider à donner sa représentation.",
+      "Benefit": "Quand le personnage donne une représentation, les alliés situés dans les 6 mètres (4 c) qui disposent également de ce don peuvent l’aider à faire son test de Représentation (même une représentation bardique), comme s’ils utilisaient l’action immédiate aider quelqu'un. Les alliés font leur test d’aide à autrui avant que le personnage ne fasse son test de Représentation . Il ne peut pas bénéficier de l’aide de plus de quatre personnages. Les alliés qui apportent leur aide ne sont pas obligés d’utiliser la même compétence de Représentation que le personnage.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ensemble.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ensemble.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "exploitation-des-connaissances",
+      "Name": "Exploitation des connaissances",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "inquisiteur",
+          "Number": 1,
+          "Description": "Connaissance des monstres"
+        },
+        {
+          "Type": "BBA",
+          "Number": 11,
+          "Description": "BBA +11"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Une fois par jour, quand le personnage réussit à identifier les pouvoirs et les faiblesses d’une créature en utilisant le test de Connaissances approprié, il gagne un bonus de +2 aux jets d’attaque et de dégâts contre elle pendant 1 minute.\r\nS’il identifie les pouvoirs et faiblesses de plusieurs créatures, il doit en choisir une seule qui sera la cible de cet effet.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Exploitation des connaissances.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Exploitation des connaissances.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "familier-évolué",
+      "Name": "Familier évolué",
+      "Types": [
+        "General"
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit une évolution dans la liste des évolutions à 1 point de l’eidolon de l’invocateur et en dote son familier. Ce dernier doit se plier aux limitations de cette évolution. Par exemple, aucun familier ne peut bénéficier de l’évolution monture et seuls les familiers qui possèdent des ailes peuvent choisir l’évolution frappe des ailes. Si le personnage obtient un nouveau familier, l’ancien perd toutes ses évolutions et le personnage peut choisir une nouvelle évolution à 1 point pour son nouveau familier.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Familier évolué.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Familier évolué.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "foi-absolue",
+      "Name": "Foi absolue",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Santé divine"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage gagne un bonus sacré de +4 aux jets de sauvegarde contre le poison.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Foi absolue.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Foi absolue.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "forme-animale-optimale",
+      "Name": "Forme animale optimale",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 1,
+          "Description": "Forme animale"
+        },
+        {
+          "Type": "SkillRank",
+          "Value": "connaissances",
+          "Number": 5,
+          "Description": "5 rangs en Connaissances (nature)"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Si le personnage est un druide multiclassé, sa forme animale se calcule comme s’il avait quatre niveaux de druide de plus, avec un maximum égal à son niveau de personnage.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme animale optimale.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme animale optimale.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "forme-animale-rapide",
+      "Name": "Forme animale rapide",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 1,
+          "Description": "Forme animale"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 8,
+          "Description": "lanceur de sorts niveau 8"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut lancer forme animale par une action rapide ou de mouvement mais les formes disponibles se limitent alors à celles accessibles à un druide de deux niveaux de moins que lui quand il utilise une action de mouvement et de quatre niveaux de moins pour l’action rapide.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme animale rapide.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme animale rapide.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "forme-puissante",
+      "Name": "Forme puissante",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 1,
+          "Description": "Forme animale"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 8,
+          "Description": "druide niveau 8"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage est sous forme animale, il est considéré comme étant d’une catégorie de taille supérieure quand il s’agit de calculer son DMD, son BMO, le poids transportable, et toutes les attaques spéciales basées sur la taille qu’il utilise ou qui sont utilisées contre lui (comme étreinte, engloutissement ou piétinement).\r\n{s:CMy}\r\n===Version mythique===\r\nLes formes que le personnage adopte avec forme animale sont bien plus impressionnantes que celles de ses équivalents naturels.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme puissante.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme puissante.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "frappe-sanglante-ensorcelée",
+      "Name": "Frappe sanglante ensorcelée",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 13,
+          "Description": "Cha 13"
+        },
+        {
+          "Description": "lignage d’ensorceleur"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Une fois par jour, par une action immédiate qui suit la réduction d’une créature à 0 point de vie ou moins suite à l’utilisation d’un sort d’ensorceleur, le personnage récupère l’usage d’un pouvoir de lignage avec un nombre d’utilisations quotidiennes limitées. La créature tuée doit avoir au moins moitié autant de dés de vie que le personnage a de niveaux d’ensorceleur. Le personnage ne peut pas se servir de ce don pour obtenir une utilisation supplémentaire d’un pouvoir de lignage qu’il n’a pas encore utilisé dans la journée.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Frappe sanglante ensorcelée.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Frappe sanglante ensorcelée.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "glissade",
+      "Name": "Glissade",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "aisance",
+          "Description": "Aisance"
+        },
+        {
+          "Type": "Feat",
+          "Value": "esquive",
+          "Description": "Esquive"
+        },
+        {
+          "Type": "Feat",
+          "Value": "souplesse-du-serpent",
+          "Description": "Souplesse du serpent"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "moine",
+          "Number": 1,
+          "Description": "réserve de ki"
+        }
+      ],
+      "Description": "ki",
+      "Benefit": "Si le personnage possède encore au moins 1 point dans sa réserve de ki, il ne provoque pas d’attaque d’opportunité quand il quitte la première case lors d’un mouvement. Il peut dépenser 1 point de ki pour ne pas en provoquer pendant tout son déplacement.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Glissade.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Glissade.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "grâce-supérieure",
+      "Name": "Grâce supérieure",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 13,
+          "Description": "Cha 13"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "grâce"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Imposition des mains"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage utilise son pouvoir d’Imposition des mains sur une cible qui n’est pas victime d’une condition néfaste que l’imposition peut dissiper, elle soigne 1d6 points de dégâts de plus.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Grâce supérieure.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Grâce supérieure.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "grâce-ultime",
+      "Name": "Grâce ultime",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 19,
+          "Description": "Cha 19"
+        },
+        {
+          "Type": "Feat",
+          "Value": "grâce-supérieure",
+          "Description": "Grâce supérieure"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "grâce"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Imposition des mains"
+        }
+      ],
+      "Description": "[[rappel à la vie]]",
+      "Benefit": "Le personnage peut dépenser 10 utilisations de son Imposition des mains pour ramener un unique mort à la vie, comme avec un sort de rappel à la vie, avec un niveau de lanceur de sorts égal à son niveau de paladin.\r\nIl doit fournir les composantes du sort ou recevoir 1 niveau négatif qui disparaît automatiquement au bout de 24 heures et ne devient jamais permanent. Il est impossible de s’en débarrasser avant la fin des 24 heures.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Grâce ultime.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Grâce ultime.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "implantation-de-bombe",
+      "Name": "Implantation de bombe",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "premiers-secours",
+          "Number": 5,
+          "Description": "5 rangs en Premiers secours"
+        },
+        {
+          "Description": "découverte d’alchimiste bombe à retardement"
+        }
+      ],
+      "Description": "[[dissipation de la magie]]",
+      "Benefit": "Le personnage peut implanter une bombe dans une créature consentante ou sans défense (une créature dépourvue d’Intelligence placée sous son contrôle, comme un zombi, compte comme une créature consentante). Ceci prend 1 heure et consomme une utilisation quotidienne du pouvoir de bombe.\r\nQuand la créature meurt ou se fait détruire, la bombe explose dans la case qu’elle occupait, comme une bombe à retardement placée par le personnage (mais le personnage peut régler la bombe pour qu’elle n’inflige pas la totalité des dégâts de bombe normaux). Celui-ci peut appliquer n’importe quelle découverte de bombe à celle-ci (acide, froid, fumigène, etc.) La bombe explose automatiquement 24 heures après son implantation.\r\nSi le personnage dépense 150 po de réactifs alchimiques par dé de dégâts de la bombe (750 po pour une bombe de 5d6 par exemple), la bombe n’explose pas automatiquement au bout de 24 heures, elle explose seulement si la créature se fait tuer ou si elle est détruite (24 heures après son implantation, la bombe ne compte plus au nombre des utilisations quotidiennes du personnage).\r\nL’implantation d’une bombe est une opération aussi lourde que les soins aux blessures mortelles apportés par Premiers secours . Elle laisse des cicatrices chirurgicales à moins que la créature ne bénéficie de soins magiques ou d’aptitudes comme la régénération ou la guérison accélérée. Il est impossible d’implanter une bombe dans certaines créatures comme les vases, les élémentaires et les créatures intangibles. Pour extraire une bombe, il faut faire un test de Premiers secours comme pour traiter une blessure mortelle puis une dissipation de la magie ou un test de Sabotage pour neutraliser la bombe (DD = 11 + niveau de lanceur de sorts de l’alchimiste).",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Implantation de bombe.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Implantation de bombe.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "interférence-divine",
+      "Name": "Interférence divine",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Lanceur de sorts divins"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 10,
+          "Description": "lanceur de sorts niveau 10"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Par une action immédiate, quand un ennemi situé dans les 9 mètres (6 c) touche un allié lors d’une attaque, le personnage peut sacrifier un sort divin préparé ou un emplacement de sort s’il s’agit d’un lanceur de sorts spontanés, pour obliger l’ennemi à refaire son Jet d’attaque. Ce second Jet d’attaque subit un malus égal au niveau du sort sacrifié. Le personnage doit utiliser un sort de niveau 1 ou plus. Que cette seconde attaque soit une réussite ou non, le personnage ne peut plus utiliser ce pouvoir sur la même créature pendant 1 jour.\r\n{s:CMy}\r\n===Version mythique===\r\nLa puissance divine du personnage repousse les ennemis de sa foi.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Interférence divine.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Interférence divine.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "intuition-prophétique",
+      "Name": "Intuition prophétique",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "mystères",
+          "Number": 1,
+          "Description": "Mystère"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage gagne un bonus de +2 aux tests de Psychologie et d’Art de la magie. S’il a 10 rangs ou plus dans une de ces compétences, le bonus passe à +4 pour elle.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Intuition prophétique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Intuition prophétique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "invocateur-de-squelettes",
+      "Name": "Invocateur de squelettes",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "École renforcée (nécromancie)"
+        },
+        {
+          "Description": "capacité à lancer convocation de monstres"
+        }
+      ],
+      "Description": "[[convocation de monstres I]]",
+      "Benefit": "Le personnage ajoute « squelette humain » à la liste de créatures qu’il peut invoquer avec convocation de monstres I et « squelette humain champion » à celle des créatures qu’il convoque avec convocation de monstres III.\r\nUne fois par jour, quand il lance convocation de monstres, il peut convoquer une version squelettique de l’une des créatures présentes dans la liste associée au sort (on applique l’archétype squelette à la créature).",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Invocateur de squelettes.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Invocateur de squelettes.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "jugement-partial",
+      "Name": "Jugement partial",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "wis",
+          "Number": 13,
+          "Description": "Sag 13"
+        },
+        {
+          "OtherType": "ClassPower",
+          "Value": "jugement",
+          "Description": "pouvoir de classe jugement"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit une race dans la liste des ennemis jurés du rôdeur. Tout bonus sacré ou de malfaisance obtenu grâce à un jugement augmente de 1 pour toutes les attaques portées contre une créature de cette race et pour les attaques qu’elle porte.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Jugement partial.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Jugement partial.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "jugement-renforcé",
+      "Name": "Jugement renforcé",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "jugement",
+          "Description": "Pouvoir de classe jugement"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Une fois par jour, quand le personnage utilise son pouvoir de jugement, il peut considérer son niveau de classe comme 3 crans plus élevés. S’il a plusieurs jugements actifs à la fois, cet avantage s’applique à tous.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Jugement renforcé.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Jugement renforcé.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "lanceur-de-sorts-expérimental",
+      "Name": "Lanceur de sorts expérimental",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Capacité de lancer des sorts"
+        }
+      ],
+      "Description": "Malgré les talents de lanceur de sorts du personnage, il est encore un amateur dans le maniement des mots de pouvoir.",
+      "Benefit": "Le personnage choisit une classe qui lui donne la capacité de lancer des sorts. Il peut à présent utiliser les emplacements de sort de cette classe pour lancer un nombre limité de sorts de mots de pouvoir. Il ajoute tous les mots cibles à sa liste de sorts et à son grimoire, son familier ou à sa liste de sorts connus. De plus, il ajoute le [méta mots|méta mot] augmenter et un [mots effets|mot effet] de n’importe quel niveau qu’il peut lancer dans la classe choisie.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lanceur de sorts expérimental.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lanceur de sorts expérimental.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "langue-sauvage",
+      "Name": "Langue sauvage",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 6,
+          "Description": "Druide niveau 6"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "druide",
+          "Number": 1,
+          "Description": "forme animale"
+        }
+      ],
+      "Description": "[[communication avec les animaux]]",
+      "Benefit": "Quand le personnage utilise la forme animale pour prendre une apparence qui ne lui permet pas de parler (comme celle d’un animal), il peut tout de même s’exprimer normalement dans tous les langages qu’il connaît. Ceci lui permet de lancer des sorts à composante verbale, de prononcer des mots de commande et d’activer des objets à fin d’incantation ou à potentiel magique. Cependant, il ne peut pas lancer un sort qui nécessite des composantes gestuelles à moins de posséder le don Incantation animale, ni lancer des sorts avec des composantes matérielles fusionnées dans sa nouvelle forme.\r\nQuand le personnage utilise forme animale pour prendre la forme d’une bête, il peut utiliser communication avec les animaux pour parler à ceux dont il a pris l’apparence. C’est un pouvoir magique avec un niveau de lanceur de sorts égal au niveau de druide et il peut être utilisé chaque jour pendant un nombre de minutes égal au niveau de druide du personnage. Cette durée n’est pas forcément continue mais doit se découper en segments d’une minute.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Langue sauvage.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Langue sauvage.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "maléfice-magique",
+      "Name": "Maléfice magique",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "sorcière",
+          "Number": 1,
+          "Description": "Maléfice majeur"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage choisit un sort de niveau 1 dans la classe qui lui permet d’utiliser les maléfices majeurs. Il peut apprendre ce sort comme un maléfice et l’utiliser trois fois par jour. C’est un pouvoir magique. Il peut utiliser son niveau dans la classe qui lui accorde le maléfice comme niveau de lanceur de sorts pour le maléfice magique. Ce dernier utilise le DD des maléfices et non celui du sort originel.\r\nSi le sort est un sort de contact et que le personnage rate sa cible, il ne peut plus la viser avec ce maléfice magique pendant 24 heures. Si le sort autorise un jet de sauvegarde pour annuler ses effets ou les réduire et que la cible le réussit, elle ne peut plus être affectée par ce maléfice magique pendant 24 heures, même si elle se trouve dans sa zone d’effet.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maléfice magique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maléfice magique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "maléfice-maudit",
+      "Name": "Maléfice maudit",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Aptitude à lancer des maléfices"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage vise une créature avec un maléfice qui ne peut pas se lancer plus d’une fois par jour sur la même cible et que cette dernière a réussi son jet de sauvegarde contre le maléfice, il peut le lui relancer avant la fin de son prochain tour. En cas d’échec, il ne peut pas relancer ce maléfice sur la cible avant 1 jour.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maléfice maudit.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maléfice maudit.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "maître-des-bâtons",
+      "Name": "Maître des bâtons",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "arme-de-prédilection",
+          "SubValue": "bâton",
+          "Description": "Arme de prédilection (bâton)"
+        },
+        {
+          "Type": "BBA",
+          "Number": 5,
+          "Description": "BBA +5"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Grâce à différentes positions et techniques, le personnage peut manier un bâton comme une arme à une main. Au début de son tour, il doit décider s’il va le manier à une ou deux mains. Dans le premier cas, son autre main est libre et il est impossible d’utiliser le bâton comme une arme double. Il peut prendre le don Spécialisation martiale pour les bâtons même s’il n’a pas de niveaux de guerrier.\r\n{s:PU}\r\n====Astuce martiale (règles)====\r\nQuand le personnage utilise ce don pour manier un bâton comme une arme à une main, il peut dépenser 5 points d’endurance pour conserver la possibilité de le manier comme une arme double tout en gardant une main libre. Cet effet persiste jusqu’au début de son prochain tour.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maître des bâtons.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maître des bâtons.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "maître-des-morts-vivants",
+      "Name": "Maître des morts-vivants",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "École renforcée (nécromancie)"
+        },
+        {
+          "Items": [
+            {
+              "Description": "capacité à lancer animation des morts"
+            },
+            {
+              "Type": "SpellCast",
+              "Value": "contrôle-mineur-des-morts-vivants",
+              "Description": "contrôle mineur des morts-vivants"
+            }
+          ]
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage lance animation des morts ou utilise le don Contrôle des morts-vivants, on considère qu’il possède quatre niveaux de plus qu’en réalité quand il détermine le nombre de dés de vie à animer. La durée du contrôle mineur des morts-vivants est doublée.\r\n{s:CMy}\r\n===Version mythique===\r\nGrâce à sa nature mythique effrayante, le personnage règne sans partage sur les morts-vivants.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maître des morts-vivants.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maître des morts-vivants.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "maîtrise-du-critique-de-plaie",
+      "Name": "Maîtrise du critique de plaie",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "critique-de-plaie",
+          "Description": "Critique de plaie"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 9,
+          "Description": "lanceur de sorts de niveau 9"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage applique une plaie à l’aide du don Critique de plaie ou Critique de plaie supérieur, il peut choisir le type de plaie magique qu’il applique au lieu de la déterminer au hasard.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maîtrise du critique de plaie.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maîtrise du critique de plaie.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "maîtrise-du-méta-mot",
+      "Name": "Maîtrise du méta mot",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Capacité de lancer des sorts"
+        }
+      ],
+      "Description": "Le personnage est doué dans l’utilisation des [[méta mots]] qui améliorent ses capacités de lancement de sorts.",
+      "Benefit": "Le personnage peut utiliser les méta mots trois fois de plus par jour. De plus, il sélectionne un [méta mots|méta mot] supplémentaire et l’ajoute à son grimoire, son familier ou sa liste de mots connus.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maîtrise du méta mot.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Maîtrise du méta mot.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "meurs-pour-ton-maître",
+      "Name": "Meurs pour ton maître",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Découverte d’alchimiste familier tumeur"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Si le familier tumeur est attaché au personnage et que ce dernier doit tomber à 0 point de vie ou moins à cause de dégâts reçus en combat (de la part d’une arme ou d’une autre forme de coup, pas à cause d’un sort ou d’un pouvoir spécial), le familier se jette sur la trajectoire de l’attaque par une action immédiate. S’il réussit un jet de Réflexes (DD = dégâts infligés) il reçoit tous les dégâts de l’attaque, s’il le rate il en prend la moitié et le personnage reçoit le reste.\r\nPour se servir de ce pouvoir, le familier doit être conscient de l’attaque et capable de réagir. Il ne peut le faire qu’une fois par jour. S’il ne dispose pas de son bonus de Dextérité à la CA, il ne peut pas s’en servir. Comme ce pouvoir ne revient pas à faire un jet de Réflexes pour éviter la moitié des dégâts, l’esquive surnaturelle ne s’applique pas au jet de sauvegarde.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Meurs pour ton maître.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Meurs pour ton maître.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "mot-de-guérison",
+      "Name": "Mot de guérison",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Imposition des mains"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut utiliser l’Imposition des mains pour guérir une créature située à 9 mètres (6 c), par une action simple qui ne provoque pas d’attaque d’opportunité. Il doit être en mesure de parler et doit avoir une main libre. La cible guérit de la moitié de ce qu’elle devrait si le personnage la touchait mais bénéficie de ses grâces comme à l’accoutumée.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mot de guérison.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mot de guérison.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "mot-supplémentaire",
+      "Name": "Mot supplémentaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 1,
+          "Description": "NLS 1"
+        },
+        {
+          "Description": "capacité à lancer des sorts de mots"
+        },
+        {
+          "Description": "voir Spécial"
+        }
+      ],
+      "Description": "Le personnage a découvert un nouveau mot de pouvoir.",
+      "Benefit": "Le personnage ajoute un [mots effets|mot effet] de sa liste de mots de classe à sa liste de mots connus, et ce en plus du nombre de mots qu’il gagne normalement à chaque niveau dans sa classe. À la place, il peut ajouter deux mots de sa liste de mots de classe à sa liste de mots connus, mais ils doivent être inférieurs d’au moins un niveau au sort de mots du plus haut niveau qu’il est capable de lancer dans cette classe. Une fois faits, ces choix sont définitifs.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mot supplémentaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mot supplémentaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "mur-de-boucliers-canalisé",
+      "Name": "Mur de boucliers canalisé",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Canalisation d’énergie 3d6"
+        },
+        {
+          "Description": "maniement du bouclier"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Par une action rapide, le personnage peut dépenser une utilisation de sa canalisation d’énergie pour se doter d’un bonus de parade de +2 quand il utilise un bouclier. Ce bonus dure une minute par niveau de prêtre ou niveau effectif de prêtre. Tant que le personnage bénéficie de ce bonus, ses alliés équipés de boucliers et adjacents à lui bénéficient aussi de ce bonus de parade de +2.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mur de boucliers canalisé.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mur de boucliers canalisé.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "musique-flamboyante",
+      "Name": "Musique flamboyante",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "art-de-la-magie",
+          "Number": 5,
+          "Description": "5 rangs en Art de la magie"
+        },
+        {
+          "Description": "capacité à lancer des sorts de barde"
+        },
+        {
+          "Description": "capacité à lancer un sort profane de feu issu d’une autre classe de lanceur de sorts"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage lance un sort de barde qui inflige des dégâts, il peut remplacer ces dégâts habituels par des dégâts de feu ou répartir les dégâts de manière à ce que la moitié soit du type normal et l’autre de feu.\r\nSi le personnage lance un sort de convocation de monstres en tant que sort de barde, il peut donner une apparence flamboyante aux créatures convoquées, ce qui leur donne une résistance au feu de 5 et ajoute 1 point de dégâts de feu à leurs attaques naturelles. La créature émet une faible lumière dans un rayon de 1,50 mètre (1 c).\r\nCet aspect du don reste sans effet sur des créatures de sous-type feu.\r\nQuand le personnage utilise ce don, le sort affecté devient du registre du feu.\r\n{s:CMy}\r\n===Version mythique===\r\nLe personnage mêle les antiques mélodies du feu à l’incantation de ses sorts.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Musique flamboyante.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Musique flamboyante.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "métamagie-spontanée",
+      "Name": "Métamagie spontanée",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 13,
+          "Description": "Cha 13"
+        },
+        {
+          "Description": "un don de métamagie"
+        },
+        {
+          "Description": "capacité à lancer des sorts spontanés"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit un unique sort qu’il est capable de lancer spontanément. Quand il lui applique un don de métamagie, il peut le lancer avec un temps d’incantation normal, sans ralentissement.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Métamagie spontanée.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Métamagie spontanée.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "oracle-du-péché",
+      "Name": "Oracle du péché",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Pouvoir de paladin détection des morts-vivants"
+        }
+      ],
+      "Description": "[[détection des morts-vivants]]",
+      "Benefit": "Le personnage bénéficie de détection du mal. Il peut utiliser ce pouvoir ou détection des morts-vivants mais pas les deux à la fois.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Oracle du péché.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Oracle du péché.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "piège-de-rôdeur-supplémentaire",
+      "Name": "Piège de rôdeur supplémentaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "piège",
+          "Description": "Pouvoir de classe piège"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut utiliser ses pièges de rôdeur deux fois de plus par jour.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Piège de rôdeur supplémentaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Piège de rôdeur supplémentaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "piège-de-rôdeur-évolué",
+      "Name": "Piège de rôdeur évolué",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Capacité à poser des pièges"
+        },
+        {
+          "Type": "ClassLevel",
+          "Value": "rôdeur",
+          "Number": 5,
+          "Description": "rôdeur niveau 5"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage ajoute +1 au DD de tous les tests de Perception et de Sabotage destinés à trouver ou désamorcer des pièges avec son pouvoir de piège de classe.\r\nIl ajoute +1 à tous ses jets de sauvegarde contre les effets des pièges de rôdeur posés avec son pouvoir de classe de Piège.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Piège de rôdeur évolué.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Piège de rôdeur évolué.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "prodige",
+      "Name": "Prodige",
+      "Types": [
+        "General"
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit deux compétences d’Artisanat , de Profession ou de Représentation , avec n’importe quelle combinaison (deux compétences d’Artisanat , une d’Artisanat et une de Représentation , etc.) Il reçoit un bonus de +2 aux tests liés. S’il possède 10 rangs ou plus dans l’une d’elles, le bonus concerné passe à +4.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Prodige.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Prodige.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "prêtre-guerrier",
+      "Name": "Prêtre guerrier",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Description": "Capacité à lancer des sorts divins"
+        },
+        {
+          "Items": [
+            {
+              "Type": "ClassLevel",
+              "Value": "domaine",
+              "Number": 1,
+              "Description": "domaine"
+            },
+            {
+              "Type": "ClassLevel",
+              "Value": "mystères",
+              "Number": 1,
+              "Description": "mystère"
+            }
+          ]
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage gagne un bonus de +1 aux tests d’initiative et de +2 aux tests de Concentration pour lancer un sort ou utiliser un pouvoir magique quand il incante sur la défensive ou quand il est agrippé.\r\n{s:CMy}\r\n===Version mythique===\r\nLa foi du personnage aiguise ses réflexes et renforce davantage son esprit et son assurance.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Prêtre guerrier.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Prêtre guerrier.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "refuser-la-mort",
+      "Name": "Refuser la mort",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "moine",
+          "Number": 1,
+          "Description": "réserve de ki"
+        },
+        {
+          "Type": "Feat",
+          "Value": "endurance",
+          "Description": "Endurance"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Tant que le personnage a encore 1 point de ki dans sa réserve, s’il rate un test de Constitution pour se stabiliser, il ne perd pas 1 point de vie. S’il réussit le test, il peut dépenser 1 point de ki pour guérir de 1d6 points de vie. S’il fait un 20 naturel au test de stabilisation, il peut dépenser ce point pour soigner 2d6 points de vie.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Refuser la mort.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Refuser la mort.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "regard-intimidant",
+      "Name": "Regard intimidant",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 13,
+          "Description": "Cha 13"
+        },
+        {
+          "OtherType": "ClassPower",
+          "Value": "regard-sévère",
+          "Description": "pouvoir de classe regard sévère"
+        },
+        {
+          "Type": "SkillRank",
+          "Value": "intimidation",
+          "Number": 5,
+          "Description": "5 rangs en Intimidation"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Une fois par jour, par une action libre, quand le personnage fait un test d’Intimidation, il peut lancer deux fois les dés et choisir le meilleur.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Regard intimidant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Regard intimidant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "regard-pénétrant",
+      "Name": "Regard pénétrant",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "regard-sévère",
+          "Description": "Pouvoir de classe regard sévère"
+        },
+        {
+          "Type": "SkillRank",
+          "Value": "psychologie",
+          "Number": 5,
+          "Description": "5 rangs en Psychologie"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage fait un test de Psychologie opposé à un test de Bluff, il peut lancer deux fois les dés et choisir le meilleur résultat.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Regard pénétrant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Regard pénétrant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "récompense-de-grâce",
+      "Name": "Récompense de grâce",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Imposition des mains"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "À chaque fois que le personnage fait une Imposition des mains, il gagne un bonus sacré de +1 à tous les jets d’attaque pendant 1 round.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Récompense de grâce.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Récompense de grâce.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "récompense-de-vie",
+      "Name": "Récompense de vie",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Imposition des mains"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "À chaque fois que le personnage utilise son imposition pour soigner une cible autre que lui, il guérit d’un nombre de points de vie égal à son bonus de Charisme.\r\nCe don n’a aucun effet si le personnage utilise l’imposition pour blesser des morts-vivants.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Récompense de vie.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Récompense de vie.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "répartition-des-maléfices-majeurs",
+      "Name": "Répartition des maléfices majeurs",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "répartition-des-maléfices",
+          "Description": "Répartition des maléfices"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 18,
+          "Description": "niveau 18 de lanceur de sorts"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage utilise un de ses maléfices majeurs (pas des grands) qui vise une unique créature, il peut en choisir une seconde située à moins de 9 mètres (6 c) de la première. Elle sera aussi affectée par le maléfice.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Répartition des maléfices majeurs.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Répartition des maléfices majeurs.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "répartition-des-maléfices",
+      "Name": "Répartition des maléfices",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "sorcière",
+          "Number": 10,
+          "Description": "Sorcière de niveau 10"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage utilise un de ses maléfices (pas un majeur ni un grand) qui vise une unique créature, il peut en choisir une seconde située à moins de 9 mètres (6 c) de la première. Elle sera aussi affectée par le maléfice.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Répartition des maléfices.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Répartition des maléfices.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "réserve-magique-supplémentaire",
+      "Name": "Réserve magique supplémentaire",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "réserve-magique",
+          "Description": "Pouvoir de classe réserve magique"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "La réserve magique du personnage augmente de 2",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Réserve magique supplémentaire.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Réserve magique supplémentaire.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "science-de-la-connaissance-des-monstres",
+      "Name": "Science de la connaissance des monstres",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "connaissance-des-monstres",
+          "Description": "Pouvoir de classe connaissance des monstres"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage gagne un bonus sacré égal à 1/2 niveau des classes qui donnent le pouvoir connaissance des monstres à tous les tests de compétence qui visent à identifier les pouvoirs et les faiblesses des créatures.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Science de la connaissance des monstres.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Science de la connaissance des monstres.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "science-de-létrange-héritage",
+      "Name": "Science de l'étrange héritage",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 15,
+          "Description": "Cha 15"
+        },
+        {
+          "Type": "Feat",
+          "Value": "étrange-héritage",
+          "Description": "Étrange héritage"
+        },
+        {
+          "Description": "personnage de niveau 11"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage gagne le pouvoir de niveau 3 ou 9 du lignage qu’il a choisi avec le don Étrange héritage, au choix. Quand le personnage utilise ce pouvoir, son niveau d’ensorceleur est égal à son niveau de personnage -2, même s’il est ensorceleur.\r\nIl ne gagne jamais les autres pouvoirs du lignage.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Science de létrange héritage.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Science de létrange héritage.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "se-relever-avec-le-ki",
+      "Name": "Se relever avec le ki",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "moine",
+          "Number": 1,
+          "Description": "Réserve de ki"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Tant que le personnage a au moins 1 point de ki dans sa réserve, il peut se relever par une action rapide qui provoque des attaques d’opportunité.\r\nIl peut dépenser 1 point de cette réserve pour se relever par une action rapide qui ne déclenche pas d’attaque d’opportunité.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Se relever avec le ki.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Se relever avec le ki.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-brûlant",
+      "Name": "Sort brûlant",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Le personnage inflige des dégâts supplémentaires quand il affecte une créature avec un sort du registre du feu ou de l’acide.",
+      "Benefit": "Les effets de feu ou d’acide du sort affecté adhèrent à la créature et lui infligent des dégâts accrus au prochain round. Quand une créature subit des dégâts de feu ou d’acide de la part du sort affecté, elle subit aussi 2 x niveau réel du sort points de dégâts au début de son prochain tour. Ce sont des dégâts de feu ou d’acide, comme indiqué par le registre du sort. Si un sort brûlant est à la fois de feu et d’acide, c’est au lanceur de sort de choisir le type de dégâts infligés par l’effet de sort brûlant.\r\nUn sort brûlant utilise un emplacement de sort de deux niveaux de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort brûlant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort brûlant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-gelé",
+      "Name": "Sort gelé",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Les créatures touchées par les sorts du registre du froid du personnage sont enchevêtrées.",
+      "Benefit": "Le givre des sorts de froid du personnage s’accroche à la cible et la gêne pendant une courte période.\r\nLes créatures qui reçoivent des dégâts de froid de la part d’un sort gelé sont enchevêtrées pendant un nombre de rounds égal au niveau originel du sort.\r\nCe don affecte uniquement les sorts du registre du froid.\r\nUn sort gelé utilise un emplacement de sort d’un niveau de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort gelé.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort gelé.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-percutant",
+      "Name": "Sort percutant",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Le personnage désoriente les créatures qu’il affecte avec un sort du registre du son.",
+      "Benefit": "Une vague d’énergie perturbatrice accompagne les dégâts sonores du sort et s’abat sur les créatures qu’il affecte.\r\nLe sort percutant affecte les créatures victimes d’un sort du registre du son et leur inflige un malus de -2 aux jets d’attaque, de sauvegarde, de compétence et de caractéristique pendant un nombre de rounds égal au niveau réel du sort.\r\nLe sort percutant affecte seulement les sorts du registre du son.\r\nUn sort percutant utilise un emplacement de sort de deux niveaux de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort percutant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort percutant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-renversant",
+      "Name": "Sort renversant",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Les sorts du registre de la force renversent les créatures qu’ils affectent.",
+      "Benefit": "L’impact des sorts de force du personnage est si violent qu’il renverse les créatures.\r\nSi la cible reçoit des dégâts, rate son jet de sauvegarde ou se fait déplacer par le sort de force, le personnage doit faire un test de croc-en-jambe contre elle, en utilisant son niveau de lanceur de sorts plus son bonus de caractéristique de lanceur de sorts (la Sagesse pour les prêtres, l’Intelligence pour les magiciens, etc.) Ceci ne provoque pas d’attaque d’opportunité. Si le personnage rate son test, la cible ne peut pas essayer de faire un croc-en-jambe en retour sur le personnage ni sur l’effet de force.\r\nUn sort renversant s’applique uniquement aux sorts du registre de la force.\r\nIl utilise un emplacement de sort d’un niveau de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort renversant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort renversant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-thanatopique",
+      "Name": "Sort thanatopique",
+      "Types": [
+        "Metamagic"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "connaissances",
+          "Number": 6,
+          "Description": "6 rangs en Connaissances (religion)"
+        },
+        {
+          "Description": "École renforcée (nécromancie)"
+        }
+      ],
+      "Description": "Les sorts du personnage franchissent les sceaux contre l’énergie négative et affectent même les morts-vivants.",
+      "Benefit": "Un sort thanatopique franchit les défenses et les immunités qui protègent contre les effets de mort, l’énergie négative et les absorptions d’énergie, qui affectent alors la cible comme si sa barrière protectrice n’existait pas.\r\nPar exemple, le personnage peut lancer un baiser du vampire ou une énergie négative thanatopique sur une cible à l’abri d’une protection contre la mort. La cible souffre des effets normaux du sort. Les jets de sauvegarde et la Résistance à la magie (le cas échéant) s’appliquent toujours.\r\nLes morts-vivants sont sensibles aux sorts modifiés par ce don car il harmonise l’énergie négative de manière à ce qu’elle les blesse. Un sort thanatopique qui devrait tuer une créature vivante (en lui donnant autant de niveaux négatifs qu’elle a de DV par exemple) détruit un mort-vivant (même si les fantômes, les liches, les vampires et autres se reforment comme d’habitude). Les morts-vivants affectés par un sort thanatopique qui impose des niveaux négatifs réussissent automatiquement leur jet de sauvegarde pour s’en débarrasser au bout de 24 heures.\r\nUn sort thanatopique utilise un emplacement de sort de deux niveaux de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort thanatopique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort thanatopique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-thrénodique",
+      "Name": "Sort thrénodique",
+      "Types": [
+        "Metamagic"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "SkillRank",
+          "Value": "connaissances",
+          "Number": 6,
+          "Description": "6 rangs en Connaissances (religion)"
+        },
+        {
+          "Description": "École renforcée (nécromancie)"
+        }
+      ],
+      "Description": "Le personnage peut convertir une magie mentale en puissance nécromantique capable de contrôler les morts-vivants.",
+      "Benefit": "Ce don fonctionne uniquement sur les sorts mentaux. Il affecte les morts-vivants (même s’ils sont dépourvus d’Intelligence) comme s’ils n’étaient pas immunisés contre les effets mentaux mais il n’a aucun effet sur les créatures vivantes.\r\nUn sort thrénodique utilise un emplacement de sort de deux niveaux de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort thrénodique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort thrénodique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-transperçant",
+      "Name": "Sort transperçant",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Les études du personnage lui ont permis de développer une méthode pour vaincre la résistance à la magie.",
+      "Benefit": "Quand le personnage lance un sort transperçant contre une cible douée de résistance à la magie, il la considère comme réduite de 5 points par rapport à la réalité.\r\nUn sort transperçant utilise un emplacement de sort d’un niveau de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort transperçant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort transperçant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "sort-éblouissant",
+      "Name": "Sort éblouissant",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Quand le personnage affecte une créature avec un sort du registre du feu, de la lumière ou de l’électricité, il l’éblouit.",
+      "Benefit": "Les effets d’électricité, de feu ou de lumière du sort affecté génèrent un flamboiement qui éblouit les créatures blessées. Si une créature reçoit des dégâts de feu ou d’électricité de la part d’un sort éblouissant, elle est éblouie pendant un nombre de round égal au niveau réel du sort. Le sort éblouissant affecte uniquement les sorts du registre du feu, de la lumière ou de l’électricité.\r\nCe sort utilise un emplacement de sort d’un niveau de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort éblouissant.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Sort éblouissant.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "spécialisation-magique-supérieure",
+      "Name": "Spécialisation magique supérieure",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "int",
+          "Number": 13,
+          "Description": "Int 13"
+        },
+        {
+          "Type": "Feat",
+          "Value": "école-renforcée",
+          "Description": "École renforcée"
+        },
+        {
+          "Type": "Feat",
+          "Value": "spécialisation-magique",
+          "Description": "Spécialisation magique"
+        },
+        {
+          "Description": "capacité à préparer des sorts de niveau 5"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Si le personnage sacrifie un sort préparé de même niveau que son sort de spécialité ou de niveau supérieur, il peut lancer spontanément son sort de spécialité. Ce dernier agit à son niveau normal, quel que soit le niveau du sort sacrifié.\r\nLe personnage peut lui appliquer un don de métamagie en augmentant le niveau d’emplacement du sort et le temps d’incantation, comme un prêtre qui lance spontanément un sort de soins ou de blessure avec un don de métamagie.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Spécialisation magique supérieure.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Spécialisation magique supérieure.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "spécialisation-magique",
+      "Name": "Spécialisation magique",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "int",
+          "Number": 13,
+          "Description": "Int 13"
+        },
+        {
+          "Type": "Feat",
+          "Value": "école-renforcée",
+          "Description": "École renforcée"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage choisit un sort d’une école pour laquelle il dispose du don École renforcée . Il considère qu’il possède deux niveaux de lanceur de sorts de plus quand il s’agit de déterminer les effets variables du sort.\r\nÀ chaque fois que le personnage gagne un niveau pair dans la classe de lanceur de sorts dans laquelle il a choisi son sort, il peut en choisir un nouveau pour remplacer celui qu’il avait anciennement choisi pour le don. Ce sort devient son nouveau sort de spécialité.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Spécialisation magique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Spécialisation magique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "synergie-des-sens",
+      "Name": "Synergie des sens",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "conjurateur",
+          "Number": 1,
+          "Description": "Sens liés"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage partage ses sens avec son eidolon, il gagne un bonus de compétence de +4 aux tests de Perception tant que dure le pouvoir de sens liés.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Synergie des sens.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Synergie des sens.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "théurgie",
+      "Name": "Théurgie",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "wis",
+          "Number": 13,
+          "Description": "Sag 13"
+        },
+        {
+          "Items": [
+            {
+              "Description": "Int"
+            },
+            {
+              "Type": "Attribute",
+              "Value": "cha",
+              "Number": 13,
+              "Description": "Cha 13"
+            }
+          ]
+        },
+        {
+          "Description": "capacité à lancer des sorts divins de niveau 1"
+        },
+        {
+          "Description": "capacité à lancer des sorts profanes de niveau 1"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage peut augmenter la puissance de ses sorts divins avec de l’énergie profane et améliorer ses sorts profanes avec l’énergie divine.\r\nQuand il lance un sort divin, il peut sacrifier un emplacement de sort profane ou un sort profane préparé du même niveau que ce sort ou plus, par une action rapide. Le niveau de lanceur du sorts divin augmente de +1.\r\nQuand le personnage lance un sort profane, il peut sacrifier un emplacement de sort divin ou un sort divin préparé de même niveau ou de niveau supérieur, par une action rapide. La moitié des dégâts du sort profane deviennent de type sacré (comme si le personnage canalisait de l’énergie positive) ou impie (comme s’il canalisait de l’énergie négative).",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Théurgie.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Théurgie.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "tours-de-magie-ou-oraisons-supplémentaires",
+      "Name": "Tours de magie ou oraisons supplémentaires",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Items": [
+            {
+              "Description": "Capacité à lancer des tours de magie"
+            },
+            {
+              "Description": "des oraisons"
+            }
+          ]
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "Le personnage ajoute deux tours de magie ou oraisons à la liste de ceux qu’il connaît.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tours de magie ou oraisons supplémentaires.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tours de magie ou oraisons supplémentaires.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "tueur-prolongé",
+      "Name": "Tueur prolongé",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "tueur",
+          "Description": "Pouvoir de classe tueur"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage ajoute son bonus de Sagesse au nombre de rounds quotidiens pendant lesquels il peut utiliser son pouvoir de tueur.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tueur prolongé.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tueur prolongé.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "ultime-fermeté",
+      "Name": "Ultime fermeté",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "ClassLevel",
+          "Value": "paladin",
+          "Number": 1,
+          "Description": "Aura de fermeté"
+        }
+      ],
+      "Description": "'Normal.",
+      "Benefit": "L’aura de fermeté occupe un rayon de 6 mètres (4 c) et ne disparaît pas si le personnage tombe inconscient.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ultime fermeté.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ultime fermeté.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "vigilance-instinctive",
+      "Name": "Vigilance instinctive",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Feat",
+          "Value": "vigilance",
+          "Description": "Vigilance"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Ce don donne un bonus supplémentaire de +1 aux tests de Perception et de Psychologie, et le personnage gagne un bonus de +2 aux jets de sauvegarde  contre les effets de sommeil et de charme.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Vigilance instinctive.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Vigilance instinctive.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "vision-prophétique",
+      "Name": "Vision prophétique",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "mystère",
+          "Description": "aptitude de classe de Mystère"
+        }
+      ],
+      "Description": "[[assistance divine]]",
+      "Benefit": "Une fois par jour, le personnage peut entrer dans une transe profonde pour recevoir une vision du futur. Cette transe dure 10 minutes pendant lesquelles il ne peut pas entreprendre une autre action. S’il est interrompu, il doit reprendre à zéro. Quand il sort de sa transe, il sait si une action qui doit se dérouler dans un futur immédiat aura de bons ou de mauvais résultats, comme un sort d’augure avec 70% de chances de succès.\r\n{s:CMy}\r\n===Version mythique===\r\nLes pouvoirs prémonitoires du personnage sont d’une aide encore plus précieuse.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Vision prophétique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Vision prophétique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "voix-de-la-sibylle",
+      "Name": "Voix de la sibylle",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 15,
+          "Description": "Cha 15"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage gagne un bonus de +1 à tous les tests de Bluff, de Diplomatie et de Représentation (arts oratoires). S’il possède 10 rangs ou plus dans cette compétence, le bonus passe à +3. Ce don ne fonctionne pas si le personnage n’utilise pas sa voix lors du test de compétence (comme pour le Bluff utilisé pour faire une feinte en combat).\r\n{s:CMy}\r\n===Version mythique===\r\nLe personnage domine les esprits faibles et vulnérables par le simple son de sa voix.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Voix de la sibylle.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Voix de la sibylle.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "écho-magique",
+      "Name": "Écho magique",
+      "Types": [
+        "Metamagic"
+      ],
+      "Description": "Quand le personnage lance un sort, il libère la majorité de son potentiel magique mais pas l’intégralité.",
+      "Benefit": "Quand le personnage lance un sort avec un écho magique, il ne disparaît pas entièrement de sa mémoire et il peut le lancer une seconde fois dans la même journée. Aucun effet permettant au personnage de préparer à nouveau ou de relancer un sort n'est utilisable avec Écho magique. Si le personnage prépare ses sorts, il n’a pas besoin de préparer la seconde incantation dans un emplacement de sort. Si c’est un lanceur de sorts spontanés, la seconde incantation ne nécessite pas de dépenser un emplacement de sort utilisable.\r\nUn écho magique utilise un emplacement de sort de trois niveaux de plus que le niveau réel du sort.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Écho magique.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Écho magique.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "étrange-héritage-supérieur",
+      "Name": "Étrange héritage supérieur",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 17,
+          "Description": "Cha 17"
+        },
+        {
+          "Type": "Feat",
+          "Value": "étrange-héritage",
+          "Description": "Étrange héritage"
+        },
+        {
+          "Type": "Feat",
+          "Value": "science-de-létrange-héritage",
+          "Description": "Science de l’étrange héritage"
+        },
+        {
+          "Description": "personnage de niveau 17"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage gagne un nouveau pouvoir issu du lignage qu’il s’est découvert avec le don Étrange héritage. Il gagne un pouvoir de lignage d’ensorceleur de niveau 15 (ou moins) qu’il ne possède pas encore. Quand le personnage utilise ce pouvoir et tous les autres pouvoirs de lignage grâce à ce don, à l’Étrange héritage et à la Science de l’étrange héritage, son niveau d’ensorceleur est égal à son niveau de personnage.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Étrange héritage supérieur.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Étrange héritage supérieur.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "étrange-héritage",
+      "Name": "Étrange héritage",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "Type": "Attribute",
+          "Value": "cha",
+          "Number": 13,
+          "Description": "Cha 13"
+        },
+        {
+          "Description": "Talent pour la compétence de classe de lignage choisie pour le don (voir plus bas)"
+        },
+        {
+          "Description": "personnage de niveau 3"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Le personnage choisit un lignage d’ensorceleur. Il doit disposer de la compétence de classe que l’ensorceleur obtient au niveau 1 grâce à son lignage (par exemple Premiers secours pour un lignage céleste). Il ne peut pas s’agir d’un lignage que le personnage possède déjà.\r\nLe personnage gagne le pouvoir de lignage de niveau 1 du lignage choisi.\r\nQuand le personnage utilise ce pouvoir, son niveau d’ensorceleur est égal à son niveau de personnage -2, même s’il est ensorceleur.\r\nIl ne gagne jamais les autres pouvoirs du lignage.\r\n{s:CMy}\r\n===Version mythique===\r\nLe sang de votre ancêtre ensorceleur se mêle au pouvoir mythique de votre personnage, ce qui produit des effets importants.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Étrange héritage.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Étrange héritage.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "évolutions-supplémentaires",
+      "Name": "Évolutions supplémentaires",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "eidolon",
+          "Description": "Pouvoir de classe eidolon"
+        }
+      ],
+      "Description": "'Spécial.",
+      "Benefit": "La réserve d’évolution de l’eidolon augmente de 1.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Évolutions supplémentaires.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Évolutions supplémentaires.ashx"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "œil-du-juge",
+      "Name": "Œil du juge",
+      "Types": [
+        "General"
+      ],
+      "Prerequisites": [
+        {
+          "OtherType": "ClassPower",
+          "Value": "détection-d’alignement",
+          "Description": "Pouvoir de classe détection d’alignement"
+        },
+        {
+          "Type": "SpellcasterLevel",
+          "Number": 6,
+          "Description": "lanceur de sorts niveau 6"
+        }
+      ],
+      "Description": "'Avantage.",
+      "Benefit": "Quand le personnage utilise son pouvoir de classe de détection d’alignement, il peut passer 3 rounds à étudier une créature située dans les 18 mètres (12 c). Pendant ce temps, il ne peut pas entreprendre d’autre action. Il découvre ensuite l’alignement de la créature.",
+      "Source": {
+        "Id": "um",
+        "References": [
+          {
+            "Name": "Wiki Pathfinder-fr.org",
+            "Href": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Œil du juge.ashx",
+            "HrefString": "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Œil du juge.ashx"
+          }
+        ]
+      }
+    }
+  ],
+  "Monsters": []
+}

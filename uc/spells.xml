@@ -4,6 +4,33 @@
     <source id="uc" />
   </sources>
   <spells>
+    <spell id="abondance-de-munitions" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Abondance de munitions.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Abondance-De-Munitions.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/abundantAmmunition.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Abundant Ammunition</entry>
+        </language>
+      </localization>
+      <name>Abondance de munitions</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range>N/A</range>
+      <target>récipient touché</target>
+      <castingTime value="1" />
+    </spell>
     <spell id="absorption-de-toxine" school="necromancy">
       <source id="uc">
         <references>
@@ -30,6 +57,34 @@
       <target>lanceur de sorts</target>
       <castingTime value="1" />
       <savingThrow target="none" effect="special">voir texte</savingThrow>
+    </spell>
+    <spell id="adoration" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Adoration.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Adoration.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/adoration.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Adoration</entry>
+        </language>
+      </localization>
+      <name>Adoration</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+        <level list="hypnotiseur" level="1" />
+        <level list="psychiste" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature vivante</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
     </spell>
     <spell id="ami-de-la-forêt" school="abjuration">
       <source id="uc">
@@ -116,7 +171,7 @@
         <level list="summoner" level="3" />
         <level list="summoner-unchained" level="3" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
@@ -187,6 +242,72 @@
       <components kinds="V" />
       <range unit="personal" />
       <target>une arme (arc)</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="arme-boomerang" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme boomerang.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arme-Boomerang.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Returning Weapon</entry>
+        </language>
+      </localization>
+      <name>Arme boomerang</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="1" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="1" />
+        <level list="witch" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="1" />
+        <level list="occultiste" level="1" />
+        <level list="psychiste" level="2" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="arme-boomerang-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arme boomerang (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Arme-Boomerang--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/returningWeapon.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Returning Weapon, Communal</entry>
+        </language>
+      </localization>
+      <name>Arme boomerang (partagé)</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="sorcerer-wizard" level="3" />
+        <level list="ranger" level="2" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="3" />
+        <level list="oracle" level="3" />
+        <level list="magus" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="3" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
@@ -279,6 +400,115 @@
       <target>lanceur de sorts</target>
       <castingTime value="1" />
     </spell>
+    <spell id="aspect-animal" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect animal.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-Animal.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Animal Aspect</entry>
+        </language>
+      </localization>
+      <name>Aspect animal</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="druid" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="magus" level="2" />
+        <level list="psychiste" level="2" />
+        <level list="bloodrager" level="2" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <castingTime value="1" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="aspect-animal-supérieur" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect animal supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-Animal-Supérieur.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/animalAspect.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Animal Aspect, Greater</entry>
+        </language>
+      </localization>
+      <name>Aspect animal supérieur</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="ranger" level="3" />
+        <level list="druid" level="3" />
+        <level list="alchemist" level="3" />
+        <level list="magus" level="3" />
+        <level list="psychiste" level="4" />
+        <level list="bloodrager" level="3" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <castingTime value="1" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="aspect-de-fée-hantée" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect de fée hantée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-De-Fée-Hantée.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/hauntedFeyAspect.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Haunted Fey Aspect</entry>
+        </language>
+      </localization>
+      <name>Aspect de fée hantée</name>
+      <levels>
+        <level list="bard" level="0" />
+        <level list="sorcerer-wizard" level="0" />
+        <level list="hypnotiseur" level="0" />
+        <level list="medium" level="0" />
+        <level list="psychiste" level="0" />
+      </levels>
+      <components kinds="S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="aspect-terrifiant" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Aspect terrifiant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Aspect-Terrifiant.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/frightfulAspect.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Frightful Aspect</entry>
+        </language>
+      </localization>
+      <name>Aspect terrifiant</name>
+      <levels>
+        <level list="sorcerer-wizard" level="8" />
+        <level list="druid" level="8" />
+        <level list="cleric" level="8" />
+        <level list="witch" level="8" />
+        <level list="oracle" level="8" />
+        <level list="psychiste" level="8" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
     <spell id="assemblage-par-télékinésie" school="transmutation">
       <source id="uc">
         <references>
@@ -304,6 +534,61 @@
       <target>un engin de siège démonté</target>
       <castingTime unit="minute" value="1" />
     </spell>
+    <spell id="assistant-de-chargement" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Assistant de chargement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Assistant-De-Chargement.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/reloadingHands.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Reloading Hands</entry>
+        </language>
+      </localization>
+      <name>Assistant de chargement</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="ranger" level="2" />
+        <level list="magus" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>arme à projectile touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="avancée-assurée" school="abjuration" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Avancée assurée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Avancée-Assurée.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/adjuringStep.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Adjuring Step</entry>
+        </language>
+      </localization>
+      <name>Avancée assurée</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+        <level list="occultiste" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <target>le lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
     <spell id="balle-dédiée" school="divination">
       <source id="uc">
         <references>
@@ -325,7 +610,7 @@
         <level list="witch" level="4" />
         <level list="psychiste" level="4" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
@@ -352,11 +637,67 @@
         <level list="witch" level="6" />
         <level list="psychiste" level="6" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="barrière-protectrice" school="conjuration" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Barrière protectrice.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Barrière-Protectrice.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Ablative Barrier</entry>
+        </language>
+      </localization>
+      <name>Barrière protectrice</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="alchemist" level="2" />
+        <level list="magus" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="3" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="3" />
+        <level list="bloodrager" level="2" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="touch" />
+      <target>créature touchée</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+    </spell>
+    <spell id="bouclier-de-foudre" school="abjuration" descriptor="electricity force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bouclier de foudre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Bouclier-De-Foudre.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/shockShield.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Shock Shield</entry>
+        </language>
+      </localization>
+      <name>Bouclier de foudre</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+        <level list="occultiste" level="1" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
     </spell>
     <spell id="bouclier-pare-balles" school="abjuration">
       <source id="uc">
@@ -386,6 +727,64 @@
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif)</spellResistance>
     </spell>
+    <spell id="bulle-dair" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Bulle dair.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Bulle-Dair.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/airBubble.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Air Bubble</entry>
+        </language>
+      </localization>
+      <name>Bulle d'air</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="druid" level="1" />
+        <level list="cleric" level="1" />
+        <level list="witch" level="1" />
+        <level list="oracle" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="S M/DF" />
+      <range unit="touch" />
+      <target>créature vivante ou objet pas plus gros qu’une arme à deux mains G</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="calme-illusoire" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Calme illusoire.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Calme-Illusoire.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/illusionOfCalm.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Illusion of Calm</entry>
+        </language>
+      </localization>
+      <name>Calme illusoire</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="alchemist" level="1" />
+        <level list="magus" level="1" />
+        <level list="hypnotiseur" level="1" />
+        <level list="occultiste" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="disbelief" />
+    </spell>
     <spell id="canon-arcanique" school="transmutation">
       <source id="uc">
         <references>
@@ -407,6 +806,58 @@
       <range unit="close" />
       <target>un canon animé</target>
       <castingTime unit="round" value="1" />
+    </spell>
+    <spell id="chaîne-de-perdition" school="evocation" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Chaîne de perdition.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Chaîne-De-Perdition.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/chainOfPerdition.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Chain of Perdition</entry>
+        </language>
+      </localization>
+      <name>Chaîne de perdition</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="cleric" level="3" />
+        <level list="oracle" level="3" />
+        <level list="psychiste" level="3" />
+        <level list="bloodrager" level="3" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="close" />
+      <target>3 m de chaîne</target>
+      <castingTime value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="char-fantôme" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Char fantôme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Char-Fantôme.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/phantomChariot.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Phantom Chariot</entry>
+        </language>
+      </localization>
+      <name>Char fantôme</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="occultiste" level="4" />
+        <level list="spirite" level="4" />
+        <level list="summoner" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="squares">0</range>
+      <target>un carrosse quasi-réel et ses chevaux</target>
+      <castingTime unit="minute" value="10" />
     </spell>
     <spell id="charge-de-fourmi" school="transmutation">
       <source id="uc">
@@ -435,7 +886,7 @@
         <level list="summoner" level="1" />
         <level list="summoner-unchained" level="1" />
       </levels>
-      <components kinds="V S M DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="fortitude" effect="negates" />
@@ -468,11 +919,90 @@
         <level list="summoner" level="2" />
         <level list="summoner-unchained" level="2" />
       </levels>
-      <components kinds="V S M DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="fortitude" effect="negates" />
       <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="charge-télékinétique" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Charge télékinétique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Charge-Télékinétique.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/telekineticCharge.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Telekinetic Charge</entry>
+        </language>
+      </localization>
+      <name>Charge télékinétique</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="psychiste" level="4" />
+        <level list="spirite" level="4" />
+        <level list="bloodrager" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature consentante</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="chute-de-température" school="evocation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Chute de température.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Chute-De-Température.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/frostFall.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Frost Fall</entry>
+        </language>
+      </localization>
+      <name>Chute de température</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="druid" level="2" />
+        <level list="witch" level="2" />
+        <level list="occultiste" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>rayon de 1,50 m (1 c)</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="partial" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="conducteur-fantôme" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Conducteur fantôme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Conducteur-Fantôme.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/phantomDriver.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Phantom Driver</entry>
+        </language>
+      </localization>
+      <name>Conducteur fantôme</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="sorcerer-wizard" level="3" />
+        <level list="occultiste" level="3" />
+        <level list="spirite" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="squares">2</range>
+      <target>une créature humaine quasi-réelle</target>
+      <castingTime unit="minute" value="10" />
     </spell>
     <spell id="connaissances-du-borgne" school="divination">
       <source id="uc">
@@ -582,6 +1112,111 @@
       <savingThrow target="reflex" effect="half" />
       <spellResistance resist="special">non (spécial, voir texte)</spellResistance>
     </spell>
+    <spell id="coursier-fantôme" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Coursier fantôme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Coursier-Fantôme.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/phantomSteed#phantom-steed">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Phantom Steed</entry>
+        </language>
+      </localization>
+      <name>Coursier fantôme</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="sorcerer-wizard" level="3" />
+        <level list="magus" level="3" />
+        <level list="occultiste" level="3" />
+        <level list="psychiste" level="4" />
+        <level list="spirite" level="3" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="2" />
+        <level list="bloodrager" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="squares">0</range>
+      <castingTime unit="minute" value="10" />
+    </spell>
+    <spell id="coursier-fantôme-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Coursier fantôme (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Coursier-Fantôme--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/phantomSteed.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Phantom Steed, Communal</entry>
+        </language>
+      </localization>
+      <name>Coursier fantôme (partagé)</name>
+      <levels>
+        <level list="bard" level="4" />
+        <level list="sorcerer-wizard" level="4" />
+        <level list="magus" level="3" />
+        <level list="occultiste" level="4" />
+        <level list="spirite" level="4" />
+        <level list="summoner" level="3" />
+        <level list="summoner-unchained" level="3" />
+        <level list="bloodrager" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <castingTime unit="minute" value="10" />
+    </spell>
+    <spell id="dissimuler-la-magie" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.dissimuler la magie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Dissimuler-La-Magie.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/advanced/spells/maskDweomer.html#_mask-dweomer">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Mask Dweomer</entry>
+        </language>
+      </localization>
+      <name>Dissimuler la magie</name>
+      <levels>
+        <level list="witch" level="1" />
+        <level list="occultiste" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="V S M" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none">aucun (voir texte)</savingThrow>
+    </spell>
+    <spell id="dissimuler-la-magie-(partagé)" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Dissimuler la magie (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Dissimuler-La-Magie--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/maskDweomer.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Mask Dweomer, Communal</entry>
+        </language>
+      </localization>
+      <name>Dissimuler la magie (partagé)</name>
+      <levels>
+        <level list="witch" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="2" />
+      </levels>
+      <components kinds="V S M" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="none" effect="none">aucun (voir texte)</savingThrow>
+    </spell>
     <spell id="distorsion-spatiale" school="transmutation">
       <source id="uc">
         <references>
@@ -640,7 +1275,7 @@
         <level list="summoner" level="3" />
         <level list="summoner-unchained" level="3" />
       </levels>
-      <components kinds="V M DF" />
+      <components kinds="V M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
@@ -675,7 +1310,7 @@
         <level list="summoner" level="4" />
         <level list="summoner-unchained" level="4" />
       </levels>
-      <components kinds="V S M DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
@@ -803,7 +1438,7 @@
         <level list="antipaladin" level="2" />
         <level list="occultiste" level="2" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <target>engin de siège touché</target>
       <castingTime value="1" />
@@ -833,7 +1468,7 @@
         <level list="antipaladin" level="4" />
         <level list="occultiste" level="4" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="close" />
       <target>engin de siège touché</target>
       <castingTime value="1" />
@@ -912,6 +1547,135 @@
       <target>0,5 kg de métal mou</target>
       <castingTime unit="round" value="1" />
     </spell>
+    <spell id="flèche-de-laube" school="evocation" descriptor="light">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Flèche de laube.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Flèche-De-Laube.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/daybreakArrow.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Daybreak Arrow</entry>
+        </language>
+      </localization>
+      <name>Flèche de l'aube</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="oracle" level="3" />
+        <level list="occultiste" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>50 munitions au maximum (elles doivent se trouver ensemble lors de l’incantation)</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="flèche-sacrée" school="transmutation" descriptor="good">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Flèche sacrée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Flèche-Sacrée.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/divineArrow.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Divine Arrow</entry>
+        </language>
+      </localization>
+      <name>Flèche sacrée</name>
+      <levels>
+        <level list="paladin" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>1 projectile</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="flot-obsidien" school="transmutation" descriptor="earth fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Flot obsidien.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Flot-Obsidien.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/obsidianFlow.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Obsidian Flow</entry>
+        </language>
+      </localization>
+      <name>Flot obsidien</name>
+      <levels>
+        <level list="sorcerer-wizard" level="4" />
+        <level list="druid" level="4" />
+        <level list="summoner" level="3" />
+        <level list="summoner-unchained" level="4" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="close" />
+      <target>rayon de 6 m (4 c)</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="partial">Réflexes, partiel, voir texte</savingThrow>
+    </spell>
+    <spell id="forme-de-bébé" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme de bébé.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Forme-De-Bébé.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/pupShape.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Pup Shape</entry>
+        </language>
+      </localization>
+      <name>Forme de bébé</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="druid" level="3" />
+        <level list="witch" level="3" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <target>un animal</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="forme-de-poussière" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Forme de poussière.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Forme-De-Poussière.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/dustForm.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Dust Form</entry>
+        </language>
+      </localization>
+      <name>Forme de poussière</name>
+      <levels>
+        <level list="druid" level="6" />
+        <level list="cleric" level="6" />
+        <level list="witch" level="6" />
+        <level list="alchemist" level="5" />
+        <level list="oracle" level="6" />
+        <level list="psychiste" level="6" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
     <spell id="frappe-miroir" school="transmutation">
       <source id="uc">
         <references>
@@ -936,6 +1700,124 @@
       <range unit="personal" />
       <target>lanceur de sorts</target>
       <castingTime value="1" />
+    </spell>
+    <spell id="hostilité-forcée" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Hostilité forcée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Hostilité-Forcée.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/compelHostility.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Compel Hostility</entry>
+        </language>
+      </localization>
+      <name>Hostilité forcée</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="witch" level="1" />
+        <level list="oracle" level="1" />
+        <level list="hypnotiseur" level="1" />
+        <level list="medium" level="1" />
+        <level list="psychiste" level="1" />
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+      </levels>
+      <components kinds="V S M" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">voir texte</savingThrow>
+      <spellResistance resist="special">voir texte</spellResistance>
+    </spell>
+    <spell id="image-de-foudre" school="illusion" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Image de foudre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Image-De-Foudre.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/shockingImage.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Shocking Image</entry>
+        </language>
+      </localization>
+      <name>Image de foudre</name>
+      <levels>
+        <level list="bard" level="4" />
+        <level list="sorcerer-wizard" level="4" />
+        <level list="magus" level="2" />
+        <level list="hypnotiseur" level="4" />
+        <level list="medium" level="2" />
+        <level list="occultiste" level="4" />
+        <level list="psychiste" level="2" />
+        <level list="bloodrager" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <castingTime value="1" />
+      <spellResistance resist="special">voir texte</spellResistance>
+    </spell>
+    <spell id="image-miroir" school="illusion" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Image miroir.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Image-Miroir.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/mirrorImage#mirror-image">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Mirror Image</entry>
+        </language>
+      </localization>
+      <name>Image miroir</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="magus" level="2" />
+        <level list="hypnotiseur" level="2" />
+        <level list="medium" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="2" />
+        <level list="bloodrager" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <castingTime value="1" />
+      <spellResistance resist="special">voir texte</spellResistance>
+    </spell>
+    <spell id="immolation-spontanée" school="evocation" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Immolation spontanée.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Immolation-Spontanée.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/spontaneousImmolation.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Spontaneous Immolation</entry>
+        </language>
+      </localization>
+      <name>Immolation spontanée</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="psychiste" level="2" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="medium" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="special" effect="special">Vigueur 1/2 et Réflexes (voir description)</savingThrow>
+      <spellResistance resist="true" />
     </spell>
     <spell id="immunité-contre-les-sorts" school="abjuration">
       <source id="uc">
@@ -1077,6 +1959,33 @@
       <target>le jeteur de sorts</target>
       <castingTime value="1" />
     </spell>
+    <spell id="instant-de-gloire" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Instant de gloire.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Instant-De-Gloire.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/momentOfGreatness.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Moment of Greatness</entry>
+        </language>
+      </localization>
+      <name>Instant de gloire</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="squares">10</range>
+      <target>lanceur de sorts et les alliés situés dans un rayon de 15 m (10 c) autour du lanceur de sorts</target>
+      <castingTime value="1" />
+      <spellResistance resist="true" />
+    </spell>
     <spell id="instrument-dagonie" school="transmutation">
       <source id="uc">
         <references>
@@ -1102,6 +2011,142 @@
       <castingTime value="1" />
       <savingThrow target="will" effect="negates">Volonté, annule (inoffensif, objet) (voir texte)</savingThrow>
       <spellResistance resist="special">oui (inoffensif, objet) (voir texte)</spellResistance>
+    </spell>
+    <spell id="invective-cuisante" school="evocation" descriptor="fire languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Invective cuisante.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Invective-Cuisante.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/blisteringInvective.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Blistering Invective</entry>
+        </language>
+      </localization>
+      <name>Invective cuisante</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="hypnotiseur" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>9 m (6 c) de rayon</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="partial">Réflexes partiel, voir texte</savingThrow>
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+    </spell>
+    <spell id="invocation-héroïque" school="enchantment">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Invocation héroïque.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Invocation-Héroïque.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/heroicInvocation.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Heroic Invocation</entry>
+        </language>
+      </localization>
+      <name>Invocation héroïque</name>
+      <levels>
+        <level list="sorcerer-wizard" level="9" />
+        <level list="witch" level="9" />
+        <level list="psychiste" level="9" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature ou plus, qui ne doivent être distantes de plus de 9 m (6 c) les unes des autres</target>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="juggernaut-mortel" school="necromancy" descriptor="death">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Juggernaut mortel.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Juggernaut-Mortel.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/deadlyJuggernaut.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Deadly Juggernaut</entry>
+        </language>
+      </localization>
+      <name>Juggernaut mortel</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="oracle" level="3" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="juxtaposition-hostile" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Juxtaposition hostile.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Juxtaposition-Hostile.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/hostileJuxtaposition.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Hostile Juxtaposition</entry>
+        </language>
+      </localization>
+      <name>Juxtaposition hostile</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="witch" level="5" />
+        <level list="hypnotiseur" level="4" />
+        <level list="psychiste" level="5" />
+        <level list="summoner" level="4" />
+        <level list="summoner-unchained" level="5" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <target>une créature de la taille du lanceur de sorts ou plus petite</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="juxtaposition-hostile-supérieure" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Juxtaposition hostile supérieure.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Juxtaposition-Hostile-Supérieure.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/hostileJuxtaposition.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Hostile Juxtaposition, Greater</entry>
+        </language>
+      </localization>
+      <name>Juxtaposition hostile supérieure</name>
+      <levels>
+        <level list="sorcerer-wizard" level="7" />
+        <level list="witch" level="7" />
+        <level list="hypnotiseur" level="6" />
+        <level list="psychiste" level="7" />
+        <level list="summoner" level="6" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <target>une créature/4 niveaux</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
     </spell>
     <spell id="lévitation-hostile" school="transmutation">
       <source id="uc">
@@ -1165,6 +2210,126 @@
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="true" />
     </spell>
+    <spell id="lien-de-vie" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien de vie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-De-Vie.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/lifeConduit.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Life Conduit</entry>
+        </language>
+      </localization>
+      <name>Lien de vie</name>
+      <levels>
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="lien-de-vie-supérieur" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien de vie supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-De-Vie-Supérieur.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/lifeConduit.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Life Conduit, Greater</entry>
+        </language>
+      </localization>
+      <name>Lien de vie supérieur</name>
+      <levels>
+        <level list="summoner" level="5" />
+        <level list="summoner-unchained" level="5" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="lien-mental-avec-le-compagnon" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lien mental avec le compagnon.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lien-Mental-Avec-Le-Compagnon.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/companionMindLink.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Companion Mind Link</entry>
+        </language>
+      </localization>
+      <name>Lien mental avec le compagnon</name>
+      <levels>
+        <level list="ranger" level="3" />
+        <level list="druid" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>le compagnon animal</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="litanie-déloquence" school="enchantment" descriptor="languageDependent mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie déloquence.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-Déloquence.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfEloquence.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Eloquence</entry>
+        </language>
+      </localization>
+      <name>Litanie d'éloquence</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-denchevêtrement" school="conjuration" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie denchevêtrement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-Denchevêtrement.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfEntanglement.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Entanglement</entry>
+        </language>
+      </localization>
+      <name>Litanie d'enchevêtrement</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+        <level list="antipaladin" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
     <spell id="litanie-de-défense" school="transmutation">
       <source id="uc">
         <references>
@@ -1188,6 +2353,106 @@
       <range unit="personal" />
       <target>lanceur de sorts</target>
       <castingTime unit="swiftAction" value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-de-faiblesse" school="necromancy" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de faiblesse.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Faiblesse.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfWeakness.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Weakness</entry>
+        </language>
+      </localization>
+      <name>Litanie de faiblesse</name>
+      <levels>
+        <level list="inquisitor" level="1" />
+        <level list="antipaladin" level="1" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-de-folie" school="enchantment" descriptor="languageDependent mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de folie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Folie.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfMadness.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Madness</entry>
+        </language>
+      </localization>
+      <name>Litanie de folie</name>
+      <levels>
+        <level list="inquisitor" level="6" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="none" effect="none">non, voir texte</savingThrow>
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-de-fuite" school="conjuration" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de fuite.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Fuite.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfEscape.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Escape</entry>
+        </language>
+      </localization>
+      <name>Litanie de fuite</name>
+      <levels>
+        <level list="paladin" level="3" />
+        <level list="inquisitor" level="4" />
+        <level list="antipaladin" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature agrippée</target>
+      <castingTime unit="swiftAction" value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-de-paresse" school="enchantment" descriptor="languageDependent mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de paresse.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Paresse.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfSloth.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Sloth</entry>
+        </language>
+      </localization>
+      <name>Litanie de paresse</name>
+      <levels>
+        <level list="paladin" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="antipaladin" level="1" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="will" effect="negates" />
       <spellResistance resist="true" />
     </spell>
     <spell id="litanie-de-prévention" school="transmutation">
@@ -1214,6 +2479,82 @@
       <target>lanceur de sorts</target>
       <castingTime unit="swiftAction" value="1" />
     </spell>
+    <spell id="litanie-de-tonnerre" school="evocation" descriptor="languageDependent sonic">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de tonnerre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Tonnerre.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfThunder.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Thunder</entry>
+        </language>
+      </localization>
+      <name>Litanie de tonnerre</name>
+      <levels>
+        <level list="paladin" level="4" />
+        <level list="inquisitor" level="5" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-de-vengeance" school="transmutation" descriptor="languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de vengeance.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Vengeance.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfVengeance.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Vengeance</entry>
+        </language>
+      </localization>
+      <name>Litanie de vengeance</name>
+      <levels>
+        <level list="paladin" level="4" />
+        <level list="inquisitor" level="5" />
+        <level list="antipaladin" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="litanie-de-vertu" school="evocation" descriptor="good languageDependent">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Litanie de vertu.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Litanie-De-Vertu.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfRighteousness.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Litany of Righteousness</entry>
+        </language>
+      </localization>
+      <name>Litanie de vertu</name>
+      <levels>
+        <level list="paladin" level="2" />
+        <level list="inquisitor" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime unit="swiftAction" value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
     <spell id="litanie-de-vision" school="divination">
       <source id="uc">
         <references>
@@ -1239,6 +2580,223 @@
       <castingTime unit="swiftAction" value="1" />
       <spellResistance resist="true" />
     </spell>
+    <spell id="lumière-du-jugement" school="evocation" descriptor="light">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Lumière du jugement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Lumière-Du-Jugement.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/judgmentLight.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Judgment Light</entry>
+        </language>
+      </localization>
+      <name>Lumière du jugement</name>
+      <levels>
+        <level list="inquisitor" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>rayon de 9 m (6 c)</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">voir description</savingThrow>
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="main-vagabonde" school="evocation" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Main vagabonde.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Main-Vagabonde.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/pilferingHand.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Pilfering Hand</entry>
+        </language>
+      </localization>
+      <name>Main vagabonde</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="cleric" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+        <level list="hypnotiseur" level="2" />
+        <level list="medium" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="2" />
+        <level list="spirite" level="2" />
+      </levels>
+      <components kinds="S" />
+      <range unit="close" />
+      <target>un objet</target>
+      <castingTime value="1" />
+      <spellResistance resist="special">oui (objet)</spellResistance>
+    </spell>
+    <spell id="marche-dans-les-airs" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Marche dans les airs.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Marche-Dans-Les-Airs.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/airWalk#air-walk">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Air Walk</entry>
+        </language>
+      </localization>
+      <name>Marche dans les airs</name>
+      <levels>
+        <level list="druid" level="4" />
+        <level list="cleric" level="4" />
+        <level list="alchemist" level="4" />
+        <level list="oracle" level="4" />
+        <level list="occultiste" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="marche-dans-les-airs-(partagé)" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Marche dans les airs (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Marche-Dans-Les-Airs--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/airWalk.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Air Walk, Communal</entry>
+        </language>
+      </localization>
+      <name>Marche dans les airs (partagé)</name>
+      <levels>
+        <level list="druid" level="5" />
+        <level list="cleric" level="5" />
+        <level list="alchemist" level="5" />
+        <level list="oracle" level="5" />
+        <level list="occultiste" level="5" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="marche-sur-londe" school="transmutation" descriptor="water">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Marche sur londe.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Marche-Sur-Londe.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/waterWalk#water-walk">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Water Walk</entry>
+        </language>
+      </localization>
+      <name>Marche sur l'onde</name>
+      <levels>
+        <level list="ranger" level="3" />
+        <level list="cleric" level="3" />
+        <level list="witch" level="3" />
+        <level list="oracle" level="3" />
+        <level list="medium" level="2" />
+        <level list="psychiste" level="3" />
+        <level list="shaman" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="marche-sur-londe-(partagé)" school="transmutation" descriptor="water">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Marche sur londe (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Marche-Sur-Londe--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/waterWalk.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Water Walk, Communal</entry>
+        </language>
+      </localization>
+      <name>Marche sur l'onde (partagé)</name>
+      <levels>
+        <level list="ranger" level="2" />
+        <level list="cleric" level="2" />
+        <level list="witch" level="3" />
+        <level list="oracle" level="2" />
+        <level list="medium" level="2" />
+        <level list="psychiste" level="4" />
+        <level list="shaman" level="3" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="métal-solaire" school="transmutation" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Métal solaire.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Métal-Solaire.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/sunMetal.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Sun Metal</entry>
+        </language>
+      </localization>
+      <name>Métal solaire</name>
+      <levels>
+        <level list="ranger" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="oracle" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>une arme de corps à corps</target>
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="special">oui (objet)</spellResistance>
+    </spell>
+    <spell id="mixture-pour-bombe-à-décharge-de-foudre" school="evocation" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe à décharge de foudre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-À-Décharge-De-Foudre.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/lightningLashBombAdmixture.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Lightning Lash Bomb Admixture</entry>
+        </language>
+      </localization>
+      <name>Mixture pour bombe à décharge de foudre</name>
+      <levels>
+        <level list="alchemist" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+    </spell>
     <spell id="mixture-pour-bombe-ciblée" school="transmutation">
       <source id="uc">
         <references>
@@ -1262,6 +2820,178 @@
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+    </spell>
+    <spell id="mixture-pour-bombe-demprisonnement" school="evocation" descriptor="force">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe demprisonnement.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Demprisonnement.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/cagingBombAdmixture.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Caging Bomb Admixture</entry>
+        </language>
+      </localization>
+      <name>Mixture pour bombe d'emprisonnement</name>
+      <levels>
+        <level list="alchemist" level="6" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="mixture-pour-bombe-dombre" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe dombre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Dombre.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/shadowBombAdmixture.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Shadow Bomb Admixture</entry>
+        </language>
+      </localization>
+      <name>Mixture pour bombe d'ombre</name>
+      <levels>
+        <level list="alchemist" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="none" effect="special">spécial, voir texte</savingThrow>
+      <spellResistance resist="special">spécial, voir plus bas</spellResistance>
+    </spell>
+    <spell id="mixture-pour-bombe-de-vipère" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe de vipère.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-De-Vipère.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/viperBombAdmixture.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Viper Bomb Admixture</entry>
+        </language>
+      </localization>
+      <name>Mixture pour bombe de vipère</name>
+      <levels>
+        <level list="alchemist" level="4" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="mixture-pour-bombe-languide" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Mixture pour bombe languide.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Mixture-Pour-Bombe-Languide.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/languidBombAdmixture.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Languid Bomb Admixture</entry>
+        </language>
+      </localization>
+      <name>Mixture pour bombe languide</name>
+      <levels>
+        <level list="alchemist" level="5" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="monture" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Monture.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Monture.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/mount#mount">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Mount</entry>
+        </language>
+      </localization>
+      <name>Monture</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="witch" level="1" />
+        <level list="magus" level="1" />
+        <level list="occultiste" level="1" />
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M" />
+      <range unit="close" />
+      <castingTime unit="round" value="1" />
+    </spell>
+    <spell id="monture-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Monture (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Monture--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/mount.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Mount, Communal</entry>
+        </language>
+      </localization>
+      <name>Monture (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="witch" level="2" />
+        <level list="magus" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="2" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M" />
+      <range unit="close" />
+      <castingTime unit="round" value="1" />
+    </spell>
+    <spell id="nappe-de-goudron" school="transmutation" descriptor="earth fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Nappe de goudron.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Nappe-De-Goudron.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/tarPool.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Tar Pool</entry>
+        </language>
+      </localization>
+      <name>Nappe de goudron</name>
+      <levels>
+        <level list="sorcerer-wizard" level="6" />
+        <level list="druid" level="6" />
+        <level list="summoner" level="5" />
+        <level list="summoner-unchained" level="6" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="close" />
+      <target>6 m (4 c) de rayon</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="partial">Réflexes partiel, voir texte</savingThrow>
     </spell>
     <spell id="ordre-libérateur" school="transmutation">
       <source id="uc">
@@ -1295,6 +3025,28 @@
       <castingTime unit="immediateAction" value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="pacte-avec-la-terre" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pacte avec la terre.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Pacte-Avec-La-Terre.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/terrainBond.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Terrain Bond</entry>
+        </language>
+      </localization>
+      <name>Pacte avec la terre</name>
+      <levels>
+        <level list="ranger" level="4" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
     </spell>
     <spell id="paix-forcée" school="abjuration">
       <source id="uc">
@@ -1563,6 +3315,37 @@
       <castingTime value="1" />
       <savingThrow target="none" effect="special">voir texte</savingThrow>
     </spell>
+    <spell id="perspicacité-tactique" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Perspicacité tactique.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Perspicacité-Tactique.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/tacticalAcumen.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Tactical Acumen</entry>
+        </language>
+      </localization>
+      <name>Perspicacité tactique</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="1" />
+        <level list="inquisitor" level="2" />
+        <level list="magus" level="2" />
+        <level list="medium" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="2" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="squares">6</range>
+      <target>lanceur de sorts et les alliés dans un rayon de 9 m (6 c) centré sur le lanceur de sorts</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
     <spell id="plaie-au-visage" school="necromancy">
       <source id="uc">
         <references>
@@ -1592,6 +3375,34 @@
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif)</spellResistance>
     </spell>
+    <spell id="pluie-de-plomb" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Pluie de plomb.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Pluie-De-Plomb.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/pelletBlast.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Pellet Blast</entry>
+        </language>
+      </localization>
+      <name>Pluie de plomb</name>
+      <levels>
+        <level list="sorcerer-wizard" level="3" />
+        <level list="magus" level="4" />
+        <level list="psychiste" level="3" />
+        <level list="summoner" level="3" />
+        <level list="summoner-unchained" level="3" />
+        <level list="bloodrager" level="4" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="squares">6</range>
+      <target>cône</target>
+      <castingTime value="1" />
+      <savingThrow target="reflex" effect="half" />
+    </spell>
     <spell id="poigne-sûre" school="transmutation">
       <source id="uc">
         <references>
@@ -1613,7 +3424,7 @@
         <level list="occultiste" level="2" />
         <level list="bloodrager" level="2" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <target>créature touchée</target>
       <castingTime value="1" />
@@ -1639,7 +3450,7 @@
         <level list="druid" level="1" />
         <level list="witch" level="1" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="close" />
       <target>une arme à feu chargée</target>
       <castingTime value="1" />
@@ -1664,7 +3475,7 @@
         <level list="sorcerer-wizard" level="2" />
         <level list="witch" level="2" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="close" />
       <target>une arme à feu chargée</target>
       <castingTime value="1" />
@@ -1690,7 +3501,7 @@
         <level list="druid" level="1" />
         <level list="witch" level="1" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="close" />
       <target>une arme à feu chargée</target>
       <castingTime value="1" />
@@ -1715,12 +3526,332 @@
         <level list="sorcerer-wizard" level="2" />
         <level list="witch" level="2" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="close" />
       <target>une arme à feu chargée</target>
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="présage-débilitant" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Présage débilitant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Présage-Débilitant.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/debilitatingPortent.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Debilitating Portent</entry>
+        </language>
+      </localization>
+      <name>Présage débilitant</name>
+      <levels>
+        <level list="cleric" level="4" />
+        <level list="witch" level="4" />
+        <level list="oracle" level="4" />
+        <level list="psychiste" level="4" />
+        <level list="spirite" level="4" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="medium" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="présage-traumatisant" school="evocation" descriptor="electricity">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Présage traumatisant.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Présage-Traumatisant.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/joltingPortent.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Jolting Portent</entry>
+        </language>
+      </localization>
+      <name>Présage traumatisant</name>
+      <levels>
+        <level list="cleric" level="7" />
+        <level list="oracle" level="7" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="medium" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="protection-contre-la-loi" school="abjuration" descriptor="chaotic">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre la Loi.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-La-Loi.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/protectionFromLaw#protection-from-law">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection From Law</entry>
+        </language>
+      </localization>
+      <name>Protection contre la Loi</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="oracle" level="1" />
+        <level list="antipaladin" level="1" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-la-loi-(partagé)" school="abjuration" descriptor="chaotic">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre la Loi (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-La-Loi--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/protectionFromLaw.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection from Law, Communal</entry>
+        </language>
+      </localization>
+      <name>Protection contre la Loi (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="antipaladin" level="2" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="2" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-le-bien" school="abjuration" descriptor="evil">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Bien.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Bien.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/protectionFromGood#protection-from-good">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection From Good</entry>
+        </language>
+      </localization>
+      <name>Protection contre le Bien</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="oracle" level="1" />
+        <level list="antipaladin" level="1" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-le-bien-(partagé)" school="abjuration" descriptor="evil">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Bien (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Bien--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/protectionFromGood.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection from Good, Communal</entry>
+        </language>
+      </localization>
+      <name>Protection contre le Bien (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="antipaladin" level="2" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="2" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-le-chaos" school="abjuration" descriptor="lawful">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Chaos.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Chaos.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/protectionFromChaos#protection-from-chaos">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection From Chaos</entry>
+        </language>
+      </localization>
+      <name>Protection contre le Chaos</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="oracle" level="1" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-le-chaos-(partagé)" school="abjuration" descriptor="lawful">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Chaos (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Chaos--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/protectionFromChaos.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection from Chaos, Communal</entry>
+        </language>
+      </localization>
+      <name>Protection contre le Chaos (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="2" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-le-mal" school="abjuration" descriptor="good">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Mal.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Mal.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/protectionFromEvil#protection-from-evil">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection From Evil</entry>
+        </language>
+      </localization>
+      <name>Protection contre le Mal</name>
+      <levels>
+        <level list="sorcerer-wizard" level="1" />
+        <level list="paladin" level="1" />
+        <level list="cleric" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="oracle" level="1" />
+        <level list="antipaladin" level="1" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="1" />
+        <level list="summoner-unchained" level="1" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
+    </spell>
+    <spell id="protection-contre-le-mal-(partagé)" school="abjuration" descriptor="good">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Protection contre le Mal (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Protection-Contre-Le-Mal--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/protectionFromEvil.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Protection from Evil, Communal</entry>
+        </language>
+      </localization>
+      <name>Protection contre le Mal (partagé)</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="2" />
+        <level list="medium" level="1" />
+        <level list="spirite" level="1" />
+        <level list="shaman" level="1" />
+        <level list="summoner" level="2" />
+        <level list="summoner-unchained" level="2" />
+        <level list="bloodrager" level="1" />
+      </levels>
+      <components kinds="V S M/DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">non (voir texte)</spellResistance>
     </spell>
     <spell id="protection-contre-les-énergies-destructives" school="abjuration">
       <source id="uc">
@@ -1852,6 +3983,103 @@
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif)</spellResistance>
     </spell>
+    <spell id="ralentissement-du-poison" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ralentissement du poison.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Ralentissement-Du-Poison.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/delayPoison#delay-poison">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Delay Poison</entry>
+        </language>
+      </localization>
+      <name>Ralentissement du poison</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="ranger" level="1" />
+        <level list="paladin" level="2" />
+        <level list="druid" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="oracle" level="2" />
+        <level list="hypnotiseur" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="shaman" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="ralentissement-du-poison-(partagé)" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Ralentissement du poison (partagé).ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Ralentissement-Du-Poison--Partagé-.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/delayPoison.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Delay Poison, Communal</entry>
+        </language>
+      </localization>
+      <name>Ralentissement du poison (partagé)</name>
+      <levels>
+        <level list="bard" level="3" />
+        <level list="ranger" level="3" />
+        <level list="paladin" level="3" />
+        <level list="druid" level="3" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="3" />
+        <level list="witch" level="3" />
+        <level list="alchemist" level="3" />
+        <level list="oracle" level="3" />
+        <level list="hypnotiseur" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="shaman" level="2" />
+      </levels>
+      <components kinds="V S DF" />
+      <range unit="touch" />
+      <castingTime value="1" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="réaction-négative" school="illusion">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Réaction négative.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Réaction-Négative.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/negativeReaction.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Negative Reaction</entry>
+        </language>
+      </localization>
+      <name>Réaction négative</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="witch" level="1" />
+        <level list="magus" level="1" />
+        <level list="medium" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="S" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
     <spell id="recul-excessif" school="transmutation">
       <source id="uc">
         <references>
@@ -1899,7 +4127,7 @@
         <level list="magus" level="1" />
         <level list="occultiste" level="1" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
@@ -1927,7 +4155,7 @@
         <level list="magus" level="2" />
         <level list="occultiste" level="2" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="touch" />
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
@@ -1988,7 +4216,7 @@
         <level list="psychiste" level="3" />
         <level list="bloodrager" level="3" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="personal" />
       <target>lanceur de sorts</target>
       <castingTime value="1" />
@@ -2093,6 +4321,230 @@
       <savingThrow target="fortitude" effect="negates" />
       <spellResistance resist="special">oui (objet)</spellResistance>
     </spell>
+    <spell id="river-le-regard" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.River le regard.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/River-Le-Regard.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/lockGaze.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Lock Gaze</entry>
+        </language>
+      </localization>
+      <name>River le regard</name>
+      <levels>
+        <level list="bard" level="1" />
+        <level list="sorcerer-wizard" level="1" />
+        <level list="inquisitor" level="1" />
+        <level list="witch" level="1" />
+        <level list="magus" level="1" />
+        <level list="hypnotiseur" level="1" />
+        <level list="psychiste" level="1" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="savoir-manier-une-arme" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Savoir manier une arme.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Savoir-Manier-Une-Arme.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/bestowWeaponProficiency.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Bestow Weapon Proficiency</entry>
+        </language>
+      </localization>
+      <name>Savoir manier une arme</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+        <level list="paladin" level="2" />
+        <level list="cleric" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="2" />
+        <level list="alchemist" level="2" />
+        <level list="oracle" level="2" />
+        <level list="magus" level="2" />
+        <level list="antipaladin" level="2" />
+        <level list="medium" level="2" />
+        <level list="occultiste" level="2" />
+        <level list="psychiste" level="2" />
+      </levels>
+      <components kinds="V S M" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif)</spellResistance>
+    </spell>
+    <spell id="science-du-lien-de-vie" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Science du lien de vie.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Science-Du-Lien-De-Vie.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/lifeConduit.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Life Conduit, Improved</entry>
+        </language>
+      </localization>
+      <name>Science du lien de vie</name>
+      <levels>
+        <level list="summoner" level="3" />
+        <level list="summoner-unchained" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="scrupule" school="enchantment" descriptor="mindAffecting">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Scrupule.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Scrupule.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/qualm.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Qualm</entry>
+        </language>
+      </localization>
+      <name>Scrupule</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="sorcerer-wizard" level="2" />
+        <level list="inquisitor" level="2" />
+        <level list="witch" level="2" />
+        <level list="hypnotiseur" level="2" />
+        <level list="medium" level="2" />
+        <level list="psychiste" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="close" />
+      <target>une créature</target>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="shuriken-de-feu" school="conjuration" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Shuriken de feu.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Shuriken-De-Feu.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/fieryShuriken.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Fiery Shuriken</entry>
+        </language>
+      </localization>
+      <name>Shuriken de feu</name>
+      <levels>
+        <level list="sorcerer-wizard" level="2" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <target>deux shuriken enflammés ou plus</target>
+      <castingTime value="1" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="soldats-de-la-nature" school="transmutation" descriptor="fire">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Soldats de la nature.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Soldats-De-La-Nature.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/wildernessSoldiers.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Wilderness Soldiers</entry>
+        </language>
+      </localization>
+      <name>Soldats de la nature</name>
+      <levels>
+        <level list="ranger" level="2" />
+        <level list="druid" level="2" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="squares">6</range>
+      <target>émanation de 9 m (6 c) de rayon, centrée sur le lanceur de sorts</target>
+      <castingTime value="1" />
+    </spell>
+    <spell id="symbole-de-mort" school="necromancy" descriptor="death">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Symbole de mort.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Symbole-De-Mort.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/spells/symbolOfDeath#symbol-of-death">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Symbol Of Death</entry>
+        </language>
+      </localization>
+      <name>Symbole de mort</name>
+      <levels>
+        <level list="bard" level="6" />
+        <level list="sorcerer-wizard" level="8" />
+        <level list="paladin" level="4" />
+        <level list="cleric" level="8" />
+        <level list="witch" level="8" />
+        <level list="oracle" level="8" />
+        <level list="magus" level="5" />
+        <level list="hypnotiseur" level="2" />
+        <level list="occultiste" level="6" />
+        <level list="shaman" level="8" />
+      </levels>
+      <components kinds="V S M" />
+      <range>0 m (voir texte)</range>
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="fortitude" effect="negates" />
+      <spellResistance resist="true" />
+    </spell>
+    <spell id="symbole-fatal" school="illusion" descriptor="death">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Symbole fatal.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Symbole-Fatal.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/symbolOfStriking.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Symbol of Striking</entry>
+        </language>
+      </localization>
+      <name>Symbole fatal</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="cleric" level="5" />
+        <level list="witch" level="5" />
+        <level list="oracle" level="5" />
+        <level list="magus" level="5" />
+        <level list="occultiste" level="4" />
+      </levels>
+      <components kinds="V S F" />
+      <range>0 m (voir texte)</range>
+      <castingTime value="1" />
+      <savingThrow target="will" effect="half" />
+      <spellResistance resist="special">oui (voir texte)</spellResistance>
+    </spell>
     <spell id="tir-aveuglant" school="transmutation">
       <source id="uc">
         <references>
@@ -2117,6 +4569,56 @@
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (objet), voir texte</spellResistance>
+    </spell>
+    <spell id="tir-dénergie-à-larme-de-siège" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir dénergie à larme de siège.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Dénergie-À-Larme-De-Siège.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/energySiegeShot.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Energy Siege Shot</entry>
+        </language>
+      </localization>
+      <name>Tir d'énergie à l'arme de siège</name>
+      <levels>
+        <level list="sorcerer-wizard" level="5" />
+        <level list="occultiste" level="5" />
+        <level list="summoner" level="5" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="tir-dénergie-à-larme-de-siège-supérieur" school="transmutation">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tir dénergie à larme de siège supérieur.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Tir-Dénergie-À-Larme-De-Siège-Supérieur.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/energySiegeShot.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Energy Siege Shot, Greater</entry>
+        </language>
+      </localization>
+      <name>Tir d'énergie à l'arme de siège supérieur</name>
+      <levels>
+        <level list="sorcerer-wizard" level="6" />
+        <level list="occultiste" level="6" />
+        <level list="summoner" level="6" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="close" />
+      <castingTime unit="minute" value="10" />
+      <savingThrow target="will" effect="negates" />
+      <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
     </spell>
     <spell id="tir-longue-distance" school="transmutation">
       <source id="uc">
@@ -2143,7 +4645,7 @@
         <level list="occultiste" level="1" />
         <level list="psychiste" level="1" />
       </levels>
-      <components kinds="V S F DF" />
+      <components kinds="V S M/DF" />
       <range unit="personal" />
       <target>lanceur de sorts</target>
       <castingTime value="1" />
@@ -2172,6 +4674,58 @@
       <castingTime value="1" />
       <savingThrow target="will" effect="negates" />
       <spellResistance resist="special">oui (inoffensif, objet)</spellResistance>
+    </spell>
+    <spell id="torche-révélatrice" school="evocation" descriptor="light">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Torche révélatrice.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Torche-Révélatrice.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/discoveryTorch.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Discovery Torch</entry>
+        </language>
+      </localization>
+      <name>Torche révélatrice</name>
+      <levels>
+        <level list="bard" level="2" />
+        <level list="cleric" level="3" />
+        <level list="inquisitor" level="2" />
+        <level list="oracle" level="3" />
+      </levels>
+      <components kinds="V S" />
+      <range unit="touch" />
+      <target>objet touché</target>
+      <castingTime unit="round" value="1" />
+    </spell>
+    <spell id="traverser-lespace" school="conjuration">
+      <source id="uc">
+        <references>
+          <reference href="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Traverser lespace.ashx">Wiki Pathfinder-fr.org</reference>
+          <reference href="http://www.regles-pathfinder.fr/Traverser-Lespace.html">DRP Black-Book-Éditions</reference>
+          <reference xml:lang="en-US" href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html">Paizo PRD</reference>
+        </references>
+      </source>
+      <localization>
+        <language xml:lang="en-US">
+          <entry href="name">Walk through Space</entry>
+        </language>
+      </localization>
+      <name>Traverser l'espace</name>
+      <levels>
+        <level list="sorcerer-wizard" level="7" />
+        <level list="witch" level="7" />
+        <level list="alchemist" level="6" />
+        <level list="magus" level="6" />
+        <level list="psychiste" level="7" />
+        <level list="summoner" level="6" />
+      </levels>
+      <components kinds="V S F" />
+      <range unit="personal" />
+      <target>lanceur de sorts</target>
+      <castingTime value="1" />
     </spell>
     <spell id="trouver-la-proie" school="divination">
       <source id="uc">

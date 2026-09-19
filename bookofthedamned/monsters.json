@@ -1,0 +1,303 @@
+{
+  "Sources": [
+    {
+      "Id": "bookofthedamned"
+    }
+  ],
+  "Spells": [],
+  "SpellLists": [],
+  "Feats": [],
+  "Monsters": [
+    {
+      "Id": "brimorak",
+      "Name": "Brimorak",
+      "CR": 5.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "bushyasta",
+      "Name": "Bushyasta",
+      "CR": 6.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "deinochos",
+      "Name": "Deinochos",
+      "CR": 5.0,
+      "Climate": "Planar",
+      "Environment": "Aquatic",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "démodande-squameux",
+      "Name": "Démodande squameux",
+      "CR": 20.0,
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "diable-bourreau",
+      "Name": "Diable bourreau",
+      "CR": 11.0,
+      "Climate": "Planar",
+      "Environment": "Urban",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "diable-de-l'hérésie",
+      "Name": "Diable de l'hérésie",
+      "CR": 12.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "diable-de-l'ost-majeur",
+      "Name": "Diable de l'ost majeur",
+      "CR": 6.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "diable-de-l'ost-mineur",
+      "Name": "Diable de l'ost mineur",
+      "CR": 3.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "érodaémon",
+      "Name": "Érodaémon",
+      "CR": 11.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "ghalzarokh",
+      "Name": "Ghalzarokh",
+      "CR": 15.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "lacridaémon",
+      "Name": "Lacridaémon",
+      "CR": 3.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "najikai",
+      "Name": "Najikai",
+      "CR": 8.0,
+      "Climate": "Warm",
+      "Environment": "ForestJungle",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "nikaramsa",
+      "Name": "Nikaramsa",
+      "CR": 14.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "nucol",
+      "Name": "Nucol",
+      "CR": 4.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "obcisidaémon",
+      "Name": "Obcisidaémon",
+      "CR": 19.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "oitos",
+      "Name": "Oitos",
+      "CR": 11.0,
+      "Climate": "Planar",
+      "Environment": "Urban",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "oitos",
+      "Name": "Oitos",
+      "CR": 11.0,
+      "Climate": "Planar",
+      "Environment": "Urban",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "orsatka",
+      "Name": "Orsatka",
+      "CR": 13.0,
+      "Climate": "Temperate",
+      "Environment": "Urban",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "phasmadaémon",
+      "Name": "phasmadaémon",
+      "CR": 17.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "sanguidaémon",
+      "Name": "Sanguidaémon",
+      "CR": 9.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "séraptis",
+      "Name": "Séraptis",
+      "CR": 15.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "suspiridaémon",
+      "Name": "Suspiridaémon",
+      "CR": 7.0,
+      "Climate": "Planar",
+      "Environment": "Swamp",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "suspiridaémon",
+      "Name": "Suspiridaémon",
+      "CR": 7.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "témerdaémon",
+      "Name": "témerdaémon",
+      "CR": 14.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "vavaki",
+      "Name": "Vavaki",
+      "CR": 18.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "vénédaémon",
+      "Name": "Vénédaémon",
+      "CR": 5.0,
+      "Climate": "Planar",
+      "Environment": "RuinsDungeons",
+      "Type": "Outsider",
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    },
+    {
+      "Id": "voix-des-damnés",
+      "Name": "Voix des damnés",
+      "CR": 25.0,
+      "Source": {
+        "Id": "bookofthedamned"
+      }
+    }
+  ]
+}
