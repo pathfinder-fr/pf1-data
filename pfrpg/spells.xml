@@ -3,6 +3,408 @@
   <sources>
     <source id="pfrpg" />
   </sources>
+  <labels>
+    <label domain="spellSchool" key="abjuration">
+      <translation xml:lang="fr-FR">Abjuration</translation>
+      <translation xml:lang="en-US">Abjuration</translation>
+    </label>
+    <label domain="spellSchool" key="conjuration">
+      <translation xml:lang="fr-FR">Invocation</translation>
+      <translation xml:lang="en-US">Conjuration</translation>
+    </label>
+    <label domain="spellSchool" key="divination">
+      <translation xml:lang="fr-FR">Divination</translation>
+      <translation xml:lang="en-US">Divination</translation>
+    </label>
+    <label domain="spellSchool" key="enchantment">
+      <translation xml:lang="fr-FR">Enchantement</translation>
+      <translation xml:lang="en-US">Enchantment</translation>
+    </label>
+    <label domain="spellSchool" key="evocation">
+      <translation xml:lang="fr-FR">Évocation</translation>
+      <translation xml:lang="en-US">Evocation</translation>
+    </label>
+    <label domain="spellSchool" key="illusion">
+      <translation xml:lang="fr-FR">Illusion</translation>
+      <translation xml:lang="en-US">Illusion</translation>
+    </label>
+    <label domain="spellSchool" key="necromancy">
+      <translation xml:lang="fr-FR">Nécromancie</translation>
+      <translation xml:lang="en-US">Necromancy</translation>
+    </label>
+    <label domain="spellSchool" key="transmutation">
+      <translation xml:lang="fr-FR">Transmutation</translation>
+      <translation xml:lang="en-US">Transmutation</translation>
+    </label>
+    <label domain="spellSchool" key="universal">
+      <translation xml:lang="fr-FR">Universelle</translation>
+      <translation xml:lang="en-US">Universal</translation>
+    </label>
+    <label domain="spellDescriptor" key="acid">
+      <translation xml:lang="fr-FR">Acide</translation>
+      <translation xml:lang="en-US">Acid</translation>
+    </label>
+    <label domain="spellDescriptor" key="air">
+      <translation xml:lang="fr-FR">Air</translation>
+      <translation xml:lang="en-US">Air</translation>
+    </label>
+    <label domain="spellDescriptor" key="chaotic">
+      <translation xml:lang="fr-FR">Chaotique</translation>
+      <translation xml:lang="en-US">Chaotic</translation>
+    </label>
+    <label domain="spellDescriptor" key="cold">
+      <translation xml:lang="fr-FR">Froid</translation>
+      <translation xml:lang="en-US">Cold</translation>
+    </label>
+    <label domain="spellDescriptor" key="curse">
+      <translation xml:lang="fr-FR">Malédiction</translation>
+      <translation xml:lang="en-US">Curse</translation>
+    </label>
+    <label domain="spellDescriptor" key="darkness">
+      <translation xml:lang="fr-FR">Ténèbres</translation>
+      <translation xml:lang="en-US">Darkness</translation>
+    </label>
+    <label domain="spellDescriptor" key="death">
+      <translation xml:lang="fr-FR">Mort</translation>
+      <translation xml:lang="en-US">Death</translation>
+    </label>
+    <label domain="spellDescriptor" key="disease">
+      <translation xml:lang="fr-FR">Maladie</translation>
+      <translation xml:lang="en-US">Disease</translation>
+    </label>
+    <label domain="spellDescriptor" key="earth">
+      <translation xml:lang="fr-FR">Terre</translation>
+      <translation xml:lang="en-US">Earth</translation>
+    </label>
+    <label domain="spellDescriptor" key="electricity">
+      <translation xml:lang="fr-FR">Électricité</translation>
+      <translation xml:lang="en-US">Electricity</translation>
+    </label>
+    <label domain="spellDescriptor" key="emotion">
+      <translation xml:lang="fr-FR">Émotion</translation>
+      <translation xml:lang="en-US">Emotion</translation>
+    </label>
+    <label domain="spellDescriptor" key="evil">
+      <translation xml:lang="fr-FR">Mal</translation>
+      <translation xml:lang="en-US">Evil</translation>
+    </label>
+    <label domain="spellDescriptor" key="fear">
+      <translation xml:lang="fr-FR">Peur</translation>
+      <translation xml:lang="en-US">Fear</translation>
+    </label>
+    <label domain="spellDescriptor" key="fire">
+      <translation xml:lang="fr-FR">Feu</translation>
+      <translation xml:lang="en-US">Fire</translation>
+    </label>
+    <label domain="spellDescriptor" key="force">
+      <translation xml:lang="fr-FR">Force</translation>
+      <translation xml:lang="en-US">Force</translation>
+    </label>
+    <label domain="spellDescriptor" key="good">
+      <translation xml:lang="fr-FR">Bien</translation>
+      <translation xml:lang="en-US">Good</translation>
+    </label>
+    <label domain="spellDescriptor" key="healing">
+      <translation xml:lang="fr-FR">Guérison</translation>
+      <translation xml:lang="en-US">Healing</translation>
+    </label>
+    <label domain="spellDescriptor" key="languageDependent">
+      <translation xml:lang="fr-FR">Dépendant du langage</translation>
+      <translation xml:lang="en-US">Language-dependent</translation>
+    </label>
+    <label domain="spellDescriptor" key="lawful">
+      <translation xml:lang="fr-FR">Loyal</translation>
+      <translation xml:lang="en-US">Lawful</translation>
+    </label>
+    <label domain="spellDescriptor" key="light">
+      <translation xml:lang="fr-FR">Lumière</translation>
+      <translation xml:lang="en-US">Light</translation>
+    </label>
+    <label domain="spellDescriptor" key="mindAffecting">
+      <translation xml:lang="fr-FR">Affectant l’esprit</translation>
+      <translation xml:lang="en-US">Mind-affecting</translation>
+    </label>
+    <label domain="spellDescriptor" key="pain">
+      <translation xml:lang="fr-FR">Douleur</translation>
+      <translation xml:lang="en-US">Pain</translation>
+    </label>
+    <label domain="spellDescriptor" key="poison">
+      <translation xml:lang="fr-FR">Poison</translation>
+      <translation xml:lang="en-US">Poison</translation>
+    </label>
+    <label domain="spellDescriptor" key="shadow">
+      <translation xml:lang="fr-FR">Ombre</translation>
+      <translation xml:lang="en-US">Shadow</translation>
+    </label>
+    <label domain="spellDescriptor" key="sonic">
+      <translation xml:lang="fr-FR">Son</translation>
+      <translation xml:lang="en-US">Sonic</translation>
+    </label>
+    <label domain="spellDescriptor" key="teleportation">
+      <translation xml:lang="fr-FR">Téléportation</translation>
+      <translation xml:lang="en-US">Teleportation</translation>
+    </label>
+    <label domain="spellDescriptor" key="water">
+      <translation xml:lang="fr-FR">Eau</translation>
+      <translation xml:lang="en-US">Water</translation>
+    </label>
+    <label domain="spellDescriptor" key="">
+      <translation xml:lang="fr-FR">Aucun</translation>
+      <translation xml:lang="en-US">None</translation>
+    </label>
+    <label domain="creatureType" key="aberration">
+      <translation xml:lang="fr-FR">Aberration</translation>
+      <translation xml:lang="en-US">Aberration</translation>
+    </label>
+    <label domain="creatureType" key="animal">
+      <translation xml:lang="fr-FR">Animal</translation>
+      <translation xml:lang="en-US">Animal</translation>
+    </label>
+    <label domain="creatureType" key="construct">
+      <translation xml:lang="fr-FR">Créature artificielle</translation>
+      <translation xml:lang="en-US">Construct</translation>
+    </label>
+    <label domain="creatureType" key="dragon">
+      <translation xml:lang="fr-FR">Dragon</translation>
+      <translation xml:lang="en-US">Dragon</translation>
+    </label>
+    <label domain="creatureType" key="fey">
+      <translation xml:lang="fr-FR">Fée</translation>
+      <translation xml:lang="en-US">Fey</translation>
+    </label>
+    <label domain="creatureType" key="humanoid">
+      <translation xml:lang="fr-FR">Humanoïde</translation>
+      <translation xml:lang="en-US">Humanoid</translation>
+    </label>
+    <label domain="creatureType" key="magicalBeast">
+      <translation xml:lang="fr-FR">Bête magique</translation>
+      <translation xml:lang="en-US">Magical beast</translation>
+    </label>
+    <label domain="creatureType" key="monstrousHumanoid">
+      <translation xml:lang="fr-FR">Humanoïde monstrueux</translation>
+      <translation xml:lang="en-US">Monstrous humanoid</translation>
+    </label>
+    <label domain="creatureType" key="ooze">
+      <translation xml:lang="fr-FR">Vase</translation>
+      <translation xml:lang="en-US">Ooze</translation>
+    </label>
+    <label domain="creatureType" key="">
+      <translation xml:lang="fr-FR">Autre</translation>
+      <translation xml:lang="en-US">Other</translation>
+    </label>
+    <label domain="creatureType" key="outsider">
+      <translation xml:lang="fr-FR">Extérieur</translation>
+      <translation xml:lang="en-US">Outsider</translation>
+    </label>
+    <label domain="creatureType" key="plant">
+      <translation xml:lang="fr-FR">Plante</translation>
+      <translation xml:lang="en-US">Plant</translation>
+    </label>
+    <label domain="creatureType" key="undead">
+      <translation xml:lang="fr-FR">Mort-vivant</translation>
+      <translation xml:lang="en-US">Undead</translation>
+    </label>
+    <label domain="creatureType" key="vermin">
+      <translation xml:lang="fr-FR">Vermine</translation>
+      <translation xml:lang="en-US">Vermin</translation>
+    </label>
+    <label domain="creatureClimate" key="cold">
+      <translation xml:lang="fr-FR">Froid</translation>
+      <translation xml:lang="en-US">Cold</translation>
+    </label>
+    <label domain="creatureClimate" key="">
+      <translation xml:lang="fr-FR">Autre</translation>
+      <translation xml:lang="en-US">Other</translation>
+    </label>
+    <label domain="creatureClimate" key="planar">
+      <translation xml:lang="fr-FR">Planaire</translation>
+      <translation xml:lang="en-US">Planar</translation>
+    </label>
+    <label domain="creatureClimate" key="temperate">
+      <translation xml:lang="fr-FR">Tempéré</translation>
+      <translation xml:lang="en-US">Temperate</translation>
+    </label>
+    <label domain="creatureClimate" key="warm">
+      <translation xml:lang="fr-FR">Chaud</translation>
+      <translation xml:lang="en-US">Warm</translation>
+    </label>
+    <label domain="creatureEnvironment" key="aquatic">
+      <translation xml:lang="fr-FR">Aquatique</translation>
+      <translation xml:lang="en-US">Aquatic</translation>
+    </label>
+    <label domain="creatureEnvironment" key="desert">
+      <translation xml:lang="fr-FR">Désert</translation>
+      <translation xml:lang="en-US">Desert</translation>
+    </label>
+    <label domain="creatureEnvironment" key="forest-jungle">
+      <translation xml:lang="fr-FR">Forêt/jungle</translation>
+      <translation xml:lang="en-US">Forest/jungle</translation>
+    </label>
+    <label domain="creatureEnvironment" key="hills">
+      <translation xml:lang="fr-FR">Collines</translation>
+      <translation xml:lang="en-US">Hills</translation>
+    </label>
+    <label domain="creatureEnvironment" key="mountains">
+      <translation xml:lang="fr-FR">Montagnes</translation>
+      <translation xml:lang="en-US">Mountains</translation>
+    </label>
+    <label domain="creatureEnvironment" key="plains">
+      <translation xml:lang="fr-FR">Plaines</translation>
+      <translation xml:lang="en-US">Plains</translation>
+    </label>
+    <label domain="creatureEnvironment" key="ruins-dungeons">
+      <translation xml:lang="fr-FR">Ruines/souterrains</translation>
+      <translation xml:lang="en-US">Ruins/dungeons</translation>
+    </label>
+    <label domain="creatureEnvironment" key="sky">
+      <translation xml:lang="fr-FR">Ciel</translation>
+      <translation xml:lang="en-US">Sky</translation>
+    </label>
+    <label domain="creatureEnvironment" key="swamp">
+      <translation xml:lang="fr-FR">Marais</translation>
+      <translation xml:lang="en-US">Swamp</translation>
+    </label>
+    <label domain="creatureEnvironment" key="underground">
+      <translation xml:lang="fr-FR">Souterrain</translation>
+      <translation xml:lang="en-US">Underground</translation>
+    </label>
+    <label domain="creatureEnvironment" key="">
+      <translation xml:lang="fr-FR">Inconnu</translation>
+      <translation xml:lang="en-US">Unknown</translation>
+    </label>
+    <label domain="creatureEnvironment" key="urban">
+      <translation xml:lang="fr-FR">Urbain</translation>
+      <translation xml:lang="en-US">Urban</translation>
+    </label>
+    <label domain="featType" key="combat">
+      <translation xml:lang="fr-FR">Combat</translation>
+      <translation xml:lang="en-US">Combat</translation>
+    </label>
+    <label domain="featType" key="critical">
+      <translation xml:lang="fr-FR">Critique</translation>
+      <translation xml:lang="en-US">Critical</translation>
+    </label>
+    <label domain="featType" key="general">
+      <translation xml:lang="fr-FR">Général</translation>
+      <translation xml:lang="en-US">General</translation>
+    </label>
+    <label domain="featType" key="grit">
+      <translation xml:lang="fr-FR">Ardeur</translation>
+      <translation xml:lang="en-US">Grit</translation>
+    </label>
+    <label domain="featType" key="itemCreation">
+      <translation xml:lang="fr-FR">Création d’objets</translation>
+      <translation xml:lang="en-US">Item creation</translation>
+    </label>
+    <label domain="featType" key="metamagic">
+      <translation xml:lang="fr-FR">Métamagie</translation>
+      <translation xml:lang="en-US">Metamagic</translation>
+    </label>
+    <label domain="featType" key="monster">
+      <translation xml:lang="fr-FR">Monstre</translation>
+      <translation xml:lang="en-US">Monster</translation>
+    </label>
+    <label domain="featType" key="panache">
+      <translation xml:lang="fr-FR">Panache</translation>
+      <translation xml:lang="en-US">Panache</translation>
+    </label>
+    <label domain="featType" key="performance">
+      <translation xml:lang="fr-FR">Performance</translation>
+      <translation xml:lang="en-US">Performance</translation>
+    </label>
+    <label domain="featType" key="style">
+      <translation xml:lang="fr-FR">Style</translation>
+      <translation xml:lang="en-US">Style</translation>
+    </label>
+    <label domain="featType" key="team">
+      <translation xml:lang="fr-FR">Équipe</translation>
+      <translation xml:lang="en-US">Teamwork</translation>
+    </label>
+    <label domain="savingThrow" key="fortitude">
+      <translation xml:lang="fr-FR">Vigueur</translation>
+      <translation xml:lang="en-US">Fortitude</translation>
+    </label>
+    <label domain="savingThrow" key="none">
+      <translation xml:lang="fr-FR">Aucun</translation>
+      <translation xml:lang="en-US">None</translation>
+    </label>
+    <label domain="savingThrow" key="reflex">
+      <translation xml:lang="fr-FR">Réflexes</translation>
+      <translation xml:lang="en-US">Reflex</translation>
+    </label>
+    <label domain="savingThrow" key="will">
+      <translation xml:lang="fr-FR">Volonté</translation>
+      <translation xml:lang="en-US">Will</translation>
+    </label>
+    <label domain="spellRangeUnit" key="close">
+      <translation xml:lang="fr-FR">Courte</translation>
+      <translation xml:lang="en-US">Close</translation>
+    </label>
+    <label domain="spellRangeUnit" key="long">
+      <translation xml:lang="fr-FR">Longue</translation>
+      <translation xml:lang="en-US">Long</translation>
+    </label>
+    <label domain="spellRangeUnit" key="medium">
+      <translation xml:lang="fr-FR">Moyenne</translation>
+      <translation xml:lang="en-US">Medium</translation>
+    </label>
+    <label domain="spellRangeUnit" key="personal">
+      <translation xml:lang="fr-FR">Personnelle</translation>
+      <translation xml:lang="en-US">Personal</translation>
+    </label>
+    <label domain="spellRangeUnit" key="specific">
+      <translation xml:lang="fr-FR">Spécifique</translation>
+      <translation xml:lang="en-US">Specific</translation>
+    </label>
+    <label domain="spellRangeUnit" key="squares">
+      <translation xml:lang="fr-FR">Cases</translation>
+      <translation xml:lang="en-US">Squares</translation>
+    </label>
+    <label domain="spellRangeUnit" key="touch">
+      <translation xml:lang="fr-FR">Contact</translation>
+      <translation xml:lang="en-US">Touch</translation>
+    </label>
+    <label domain="spellRangeUnit" key="unlimited">
+      <translation xml:lang="fr-FR">Illimitée</translation>
+      <translation xml:lang="en-US">Unlimited</translation>
+    </label>
+    <label domain="timeUnit" key="day">
+      <translation xml:lang="fr-FR">Jour</translation>
+      <translation xml:lang="en-US">Day</translation>
+    </label>
+    <label domain="timeUnit" key="fullRoundAction">
+      <translation xml:lang="fr-FR">Action complexe</translation>
+      <translation xml:lang="en-US">Full-round action</translation>
+    </label>
+    <label domain="timeUnit" key="hour">
+      <translation xml:lang="fr-FR">Heure</translation>
+      <translation xml:lang="en-US">Hour</translation>
+    </label>
+    <label domain="timeUnit" key="immediateAction">
+      <translation xml:lang="fr-FR">Action immédiate</translation>
+      <translation xml:lang="en-US">Immediate action</translation>
+    </label>
+    <label domain="timeUnit" key="minute">
+      <translation xml:lang="fr-FR">Minute</translation>
+      <translation xml:lang="en-US">Minute</translation>
+    </label>
+    <label domain="timeUnit" key="round">
+      <translation xml:lang="fr-FR">Round</translation>
+      <translation xml:lang="en-US">Round</translation>
+    </label>
+    <label domain="timeUnit" key="simpleAction">
+      <translation xml:lang="fr-FR">Action simple</translation>
+      <translation xml:lang="en-US">Simple action</translation>
+    </label>
+    <label domain="timeUnit" key="special">
+      <translation xml:lang="fr-FR">Spécial</translation>
+      <translation xml:lang="en-US">Special</translation>
+    </label>
+    <label domain="timeUnit" key="swiftAction">
+      <translation xml:lang="fr-FR">Action rapide</translation>
+      <translation xml:lang="en-US">Swift action</translation>
+    </label>
+  </labels>
   <spells>
     <spell id="sort-abri" school="evocation" descriptor="force">
       <source id="pfrpg">

@@ -37,6 +37,1408 @@
       "Id": "bookofthedamned"
     }
   ],
+  "Labels": [
+    {
+      "Domain": "spellSchool",
+      "Key": "abjuration",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Abjuration"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Abjuration"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "conjuration",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Invocation"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Conjuration"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "divination",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Divination"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Divination"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "enchantment",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Enchantement"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Enchantment"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "evocation",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Évocation"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Evocation"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "illusion",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Illusion"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Illusion"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "necromancy",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Nécromancie"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Necromancy"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "transmutation",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Transmutation"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Transmutation"
+        }
+      ]
+    },
+    {
+      "Domain": "spellSchool",
+      "Key": "universal",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Universelle"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Universal"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "acid",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Acide"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Acid"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "air",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Air"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Air"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "chaotic",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Chaotique"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Chaotic"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "cold",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Froid"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Cold"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "curse",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Malédiction"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Curse"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "darkness",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Ténèbres"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Darkness"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "death",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Mort"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Death"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "disease",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Maladie"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Disease"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "earth",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Terre"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Earth"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "electricity",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Électricité"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Electricity"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "emotion",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Émotion"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Emotion"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "evil",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Mal"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Evil"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "fear",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Peur"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Fear"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "fire",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Feu"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Fire"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "force",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Force"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Force"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "good",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Bien"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Good"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "healing",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Guérison"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Healing"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "languageDependent",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Dépendant du langage"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Language-dependent"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "lawful",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Loyal"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Lawful"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "light",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Lumière"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Light"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "mindAffecting",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Affectant l’esprit"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Mind-affecting"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "pain",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Douleur"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Pain"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "poison",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Poison"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Poison"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "shadow",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Ombre"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Shadow"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "sonic",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Son"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Sonic"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "teleportation",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Téléportation"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Teleportation"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "water",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Eau"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Water"
+        }
+      ]
+    },
+    {
+      "Domain": "spellDescriptor",
+      "Key": "",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Aucun"
+        },
+        {
+          "Language": "en-US",
+          "Value": "None"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "aberration",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Aberration"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Aberration"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "animal",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Animal"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Animal"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "construct",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Créature artificielle"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Construct"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "dragon",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Dragon"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Dragon"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "fey",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Fée"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Fey"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "humanoid",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Humanoïde"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Humanoid"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "magicalBeast",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Bête magique"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Magical beast"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "monstrousHumanoid",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Humanoïde monstrueux"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Monstrous humanoid"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "ooze",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Vase"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Ooze"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Autre"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Other"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "outsider",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Extérieur"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Outsider"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "plant",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Plante"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Plant"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "undead",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Mort-vivant"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Undead"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureType",
+      "Key": "vermin",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Vermine"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Vermin"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureClimate",
+      "Key": "cold",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Froid"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Cold"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureClimate",
+      "Key": "",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Autre"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Other"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureClimate",
+      "Key": "planar",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Planaire"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Planar"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureClimate",
+      "Key": "temperate",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Tempéré"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Temperate"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureClimate",
+      "Key": "warm",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Chaud"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Warm"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "aquatic",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Aquatique"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "desert",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Désert"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Desert"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "forest-jungle",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Forêt/jungle"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Forest/jungle"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "hills",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Collines"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Hills"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "mountains",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Montagnes"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Mountains"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "plains",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Plaines"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Plains"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "ruins-dungeons",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Ruines/souterrains"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Ruins/dungeons"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "sky",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Ciel"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Sky"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "swamp",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Marais"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Swamp"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "underground",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Souterrain"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Underground"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Inconnu"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Unknown"
+        }
+      ]
+    },
+    {
+      "Domain": "creatureEnvironment",
+      "Key": "urban",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Urbain"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Urban"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "combat",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Combat"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Combat"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "critical",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Critique"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Critical"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "general",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Général"
+        },
+        {
+          "Language": "en-US",
+          "Value": "General"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "grit",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Ardeur"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Grit"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "itemCreation",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Création d’objets"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Item creation"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "metamagic",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Métamagie"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Metamagic"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "monster",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Monstre"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Monster"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "panache",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Panache"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Panache"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "performance",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Performance"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Performance"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "style",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Style"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Style"
+        }
+      ]
+    },
+    {
+      "Domain": "featType",
+      "Key": "team",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Équipe"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Teamwork"
+        }
+      ]
+    },
+    {
+      "Domain": "savingThrow",
+      "Key": "fortitude",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Vigueur"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Fortitude"
+        }
+      ]
+    },
+    {
+      "Domain": "savingThrow",
+      "Key": "none",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Aucun"
+        },
+        {
+          "Language": "en-US",
+          "Value": "None"
+        }
+      ]
+    },
+    {
+      "Domain": "savingThrow",
+      "Key": "reflex",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Réflexes"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Reflex"
+        }
+      ]
+    },
+    {
+      "Domain": "savingThrow",
+      "Key": "will",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Volonté"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Will"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "close",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Courte"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Close"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "long",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Longue"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Long"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "medium",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Moyenne"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Medium"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "personal",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Personnelle"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Personal"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "specific",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Spécifique"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Specific"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "squares",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Cases"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Squares"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "touch",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Contact"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Touch"
+        }
+      ]
+    },
+    {
+      "Domain": "spellRangeUnit",
+      "Key": "unlimited",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Illimitée"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Unlimited"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "day",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Jour"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Day"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "fullRoundAction",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Action complexe"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Full-round action"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "hour",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Heure"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Hour"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "immediateAction",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Action immédiate"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Immediate action"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "minute",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Minute"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Minute"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "round",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Round"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Round"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "simpleAction",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Action simple"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Simple action"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "special",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Spécial"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Special"
+        }
+      ]
+    },
+    {
+      "Domain": "timeUnit",
+      "Key": "swiftAction",
+      "Translations": [
+        {
+          "Language": "fr-FR",
+          "Value": "Action rapide"
+        },
+        {
+          "Language": "en-US",
+          "Value": "Swift action"
+        }
+      ]
+    }
+  ],
   "Spells": [
     {
       "Id": "abondance-de-munitions",
